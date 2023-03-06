@@ -1,0 +1,16 @@
+ContextMenu_EN = {
+  ContextMenu_ahzshortpleatedskirt = "Loosen"
+  ContextMenu_ahzshortpleatedskirt_close = "Tighten",
+
+  ContextMenu_ahzshortpleatedskirt_t = "Loosen",
+  ContextMenu_ahzshortpleatedskirt_t_close = "Tighten"
+
+  ContextMenu_ahzshortpleatedskirt_t_plaid1 = "Loosen",
+  ContextMenu_ahzshortpleatedskirt_t_plaid1_close = "Tighten"
+
+  ContextMenu_ahzshortpleatedskirt_t_plaid2 = "Loosen",
+  ContextMenu_ahzshortpleatedskirt_t_plaid2_close = "Tighten"
+
+  ContextMenu_Tighten Skirt = "Tighten",
+  ContextMenu_Loosen Skirt = "Loosen"
+}

@@ -1,0 +1,4 @@
+name=ahz clothing Extends
+id=ahzclothingExtends
+require=ahzclothing
+poster=preview.png
