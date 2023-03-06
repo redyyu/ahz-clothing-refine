@@ -327,10 +327,7 @@
 		</m_items>
 		<!-- Shoes -->
 		<m_items>
-			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
-			<subItems>
-				<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
-			</subItems>
+			<itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
 			<subItems>
 				<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
 			</subItems>
