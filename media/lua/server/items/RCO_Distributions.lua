@@ -32,7 +32,7 @@ local skirtsDistributionsMap = {
         GymLaundry = 10,
         LaundryLoad6 = 5,
     },
-    ["Bar_Fitness"] = {
+    ["Bra_Fitness"] = {
         ClothingStoresUnderwearWoman = 10,
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,

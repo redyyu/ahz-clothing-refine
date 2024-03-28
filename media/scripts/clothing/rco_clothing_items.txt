@@ -1,12 +1,15 @@
-module Base
+module RCO
 {
+    imports {
+        Base,
+    }
 
     item Stockings_Fitness {
         Type = Clothing,
         DisplayName = Fitness Compression Stockings,
         ClothingItem = Stockings_Fitness,
 		BodyLocation = Socks,
-        BloodLocation = LowerLegs;UpperLegs;Feet,
+        BloodLocation = LowerLegs;UpperLegs;Shoes,
         IconsForTexture = FitnessStockings1;FitnessStockings2;FitnessStockings3;FitnessStockings4;FitnessStockings5;FitnessStockings6,
 		BiteDefense = 10,
         ScratchDefense = 20,
@@ -29,11 +32,12 @@ module Base
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
+        Weight = 0.5,
         FabricType = Cotton,
         WorldStaticModel= Sweater_FitnessArms_Ground,
     }
 	
-	item Bar_Fitness {
+	item Bra_Fitness {
         DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Fitness Compression Bra,
@@ -52,7 +56,7 @@ module Base
         DisplayCategory = Clothing,			
         Type = Clothing,
         DisplayName = Fitness Compression Underpants,
-        ClothingItem = Underwear_FitnessUnderpants,
+        ClothingItem = Underpants_Fitness,
         BodyLocation = UnderwearBottom,
 		IconsForTexture = FitnessUnderpants1;FitnessUnderpants2;FitnessUnderpants3;FitnessUnderpants4;FitnessUnderpants5;FitnessUnderpants6,
         ScratchDefense = 5,
@@ -67,7 +71,7 @@ module Base
         DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = High Waisted Underpants,
-		ClothingItem = HighWaist_T,
+		ClothingItem = Underpants_HighWaist_T,
         BodyLocation = UnderwearBottom,
         Icon = HighWaistT,
 		Weight = 0.2,
@@ -79,7 +83,7 @@ module Base
         DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Short Underwear Tights,
-		ClothingItem = TightShorts,
+		ClothingItem = Underpants_TightShorts,
         BodyLocation = UnderwearBottom,
         Icon = TightShorts,
         Insulation = 0.25,
@@ -279,16 +283,16 @@ module Base
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
-    item Skirt_ShortPleated_Come {
+    item Skirt_ShortPleated_Camo {
         Type = Clothing,
         DisplayName = Military Short Pleated Skirt,
-        ClothingItem = Skirt_ShortPleated_Come,
+        ClothingItem = Skirt_ShortPleated_Camo,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
 		BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Come_Tight,
+		ClothingItemExtra = Skirt_ShortPleated_Camo_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
@@ -297,16 +301,16 @@ module Base
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
-    item Skirt_ShortPleated_Come_Tight {
+    item Skirt_ShortPleated_Camo_Tight {
         Type = Clothing,
         DisplayName = Military Short Pleated Skirt (Tight),
-        ClothingItem = Skirt_ShortPleated_Come_Tight,
+        ClothingItem = Skirt_ShortPleated_Camo_Tight,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
 		BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Come,
+		ClothingItemExtra = Skirt_ShortPleated_Camo,
         ClothingItemExtraOption = Loosen,
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
@@ -315,16 +319,16 @@ module Base
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
-    item Skirt_MiniPleated_Come {
+    item Skirt_MiniPleated_Camo {
         Type = Clothing,
         DisplayName = Military Pleated Miniskirt,
-        ClothingItem = Skirt_MiniPleated_Come,
+        ClothingItem = Skirt_MiniPleated_Camo,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
 		BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Come_Tight,
+		ClothingItemExtra = Skirt_ShortPleated_Camo_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
