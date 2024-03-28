@@ -17,7 +17,7 @@ end
 
 
 local skirtsDistributionsMap = {
-    ["Stockings_Fitness"] = {
+    ["ROC.Stockings_Fitness"] = {
         ClothingStoresSocks = 10,
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,
@@ -25,14 +25,14 @@ local skirtsDistributionsMap = {
         GymLaundry = 10,
         LaundryLoad6 = 5,
     },
-    ["Sweater_FitnessArms"] = {
+    ["ROC.Sweater_FitnessArms"] = {
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,
         GymLockers = 10,
         GymLaundry = 10,
         LaundryLoad6 = 5,
     },
-    ["Bra_Fitness"] = {
+    ["ROC.Bra_Fitness"] = {
         ClothingStoresUnderwearWoman = 10,
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,
@@ -40,7 +40,7 @@ local skirtsDistributionsMap = {
         GymLaundry = 10,
         LaundryLoad6 = 5,
     },
-    ["Underpants_Fitness"] = {
+    ["ROC.Underpants_Fitness"] = {
         ClothingStoresUnderwearWoman = 10,
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,
@@ -48,35 +48,35 @@ local skirtsDistributionsMap = {
         GymLaundry = 10,
         LaundryLoad6 = 5,
     },
-    ["Underpants_HighWaistT"] = {
+    ["ROC.Underpants_HighWaistT"] = {
         LingerieStoreOutfits = 3,
         ClothingStoresUnderwearWoman = 3,
         CrateClothesRandom = 1,
         LaundryLoad7 = 3, 
         StripClubDressers = 15,
     },
-    ["Underpants_TightShorts"] = {
+    ["ROC.Underpants_TightShorts"] = {
         LingerieStoreOutfits = 3,
         ClothingStoresUnderwearWoman = 3,
         CrateClothesRandom = 1,
         LaundryLoad7 = 3, 
         StripClubDressers = 15,
     },
-    ["Tshirt_LongSleeveTop"] = {
+    ["ROC.Tshirt_LongSleeveTop"] = {
         ClothingStoresWoman = 4,
         BedroomDresser = 1,
         DresserGeneric = 2,
         WardrobeWoman = 4, 
         CrateClothesRandom = 4,
     },
-    ["Tshirt_LongSleeveTopCut"] = {
+    ["ROC.Tshirt_LongSleeveTopCut"] = {
         ClothingStoresWoman = 2,
         BedroomDresser = 0.5,
         DresserGeneric = 1,
         WardrobeWoman = 2, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_ShortPleated"] = {
+    ["ROC.Skirt_ShortPleated"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -101,7 +101,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_ShortPleatedTINT"] = {
+    ["ROC.Skirt_ShortPleatedTINT"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -126,7 +126,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_ShortPleatedPlaidTINT"] = {
+    ["ROC.Skirt_ShortPleatedPlaidTINT"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -151,7 +151,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_MiniPleated"] = {
+    ["ROC.Skirt_MiniPleated"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -176,7 +176,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_MiniPleatedTINT"] = {
+    ["ROC.Skirt_MiniPleatedTINT"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -201,7 +201,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_MiniPleatedPlaidTINT"] = {
+    ["ROC.Skirt_MiniPleatedPlaidTINT"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -226,7 +226,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_ShortPleated_Camo"] = {
+    ["ROC.Skirt_ShortPleated_Camo"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -251,7 +251,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Skirt_MiniPleated_Camo"] = {
+    ["ROC.Skirt_MiniPleated_Camo"] = {
         ClothingStoresSummer = 4,
         LingerieStoreOutfits = 1,
         ClothingStorageLegwear = 0.5,
@@ -276,7 +276,7 @@ local skirtsDistributionsMap = {
         WardrobeWoman = 6, 
         CrateClothesRandom = 2,
     },
-    ["Stockings_Camo"] = {
+    ["ROC.Stockings_Camo"] = {
         ClothingStoresSocks = 10,
         ClothingStoresSport = 10,
         CrateClothesRandom = 1,

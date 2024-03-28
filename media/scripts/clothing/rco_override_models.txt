@@ -1,0 +1,42 @@
+module Base
+{
+
+    /** Shoes **/
+    
+    model Boots_Ground {  /** override vanilla **/
+		mesh = WorldItems/clothing/Boots_ground,
+	}
+
+	model RiddingBoots_Ground {
+		mesh = WorldItems/clothing/RiddingBoots_ground,	
+	}
+
+	model MilitaryBoots_Ground
+	{
+		mesh = WorldItems/clothing/MilitaryBoots_ground,	
+	}
+
+	model FancyBoots_Ground {
+		mesh = WorldItems/clothing/FancyBoots_ground,	
+	}
+
+	model Sneakers_Ground {
+		mesh = WorldItems/clothing/Sneakers_ground,	
+	}
+
+	model Wellies_Ground {
+		mesh = WorldItems/clothing/Wellies_ground,	
+	}
+
+	model ShoesFancy_Ground {
+		mesh = WorldItems/clothing/FancyShoes_ground,	
+	}
+
+	model ShoesStrapped_Ground {
+		mesh = WorldItems/clothing/Strapped_ground,	
+	}
+
+	model Shoes_Ground {
+		mesh = WorldItems/clothing/Shoes_ground,	
+	}
+}

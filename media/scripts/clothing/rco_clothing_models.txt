@@ -1,5 +1,9 @@
-module Base
+module RCO
 {
+	imports {
+        Base,
+    }
+
     model Skirt_ShortPleated_Ground {
         mesh = WorldItems/Clothing/Skirt_ShortPleated_Ground,
         scale = 1
