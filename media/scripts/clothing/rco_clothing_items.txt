@@ -90,6 +90,18 @@ module Base
 		WorldStaticModel = Underwear_Bottom_Ground,
 	}
 	
+    item Tshirt_CropTopBoob {
+        Type = Clothing,
+        DisplayName = Crop Top Short,
+        ClothingItem = Tshirt_CropTopBoob,
+        BodyLocation = Tshirt,
+        Icon = CropTopBoob,
+        Weight = 0.1,
+        BloodLocation = Shirt,
+        FabricType = Cotton,
+        WorldStaticModel = CropTop_Ground,
+    }
+
 	item Tshirt_LongSleeveTop {
        Type = Clothing,
        DisplayName = Long Sleeve Croptop,
@@ -333,6 +345,150 @@ module Base
 		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_MiniPleated_Ground,
+    }
+
+    item Dress_MiniBellyCut {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini Belly Cut Dress,
+        ClothingItem = Mini_dress_Belly_Cut,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = BellyDress,
+        Weight = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniUCut {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini Deep U Dress,
+        ClothingItem = Mini_dress_U_Cut,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = UDress,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniVCut {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini Deep V dress,
+        ClothingItem = Mini_dress_V_Cut,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = VDress,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniTube{
+
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini TubeDress,
+        ClothingItem = TubeDress_Mini_Cloth,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = TubeDress,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniTNeck {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini PoloNeck Dress,
+        ClothingItem = TNeckDress_Mini_Cloth,
+        BodyLocation = Dress,
+        BloodLocation = ShortsShort;Shirt,
+        Icon = PoloNeckDress,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Hoodie_Cropped_Down {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Half-CutHoodie,
+        ClothingItem = Hoodie_Cropped_Down,
+        ClothingItemExtra = Hoodie_Cropped_Up;Hoodie_Cropped_DownOpen;Hoodie_Cropped_UpOpen,
+        ClothingItemExtraOption = CloseHoodUp;OpenHoodDown;OpenHoodUp,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Hoodie_Cropped_Up {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Half-Cut Hoodie,
+        ClothingItem = Hoodie_Cropped_Up,
+        ClothingItemExtra = Hoodie_Cropped_Down;Hoodie_Cropped_DownOpen;Hoodie_Cropped_UpOpen,
+        ClothingItemExtraOption = CloseHoodDown;OpenHoodDown;OpenHoodUp,
+        clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Hoodie_Cropped_DownOpen {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Half-Cut Hoodie,
+        ClothingItem = Hoodie_Cropped_DownOpen,
+        ClothingItemExtra = Hoodie_Cropped_UpOpen;Hoodie_Cropped_Down;Hoodie_Cropped_Up,
+        ClothingItemExtraOption = OpenHoodUp;CloseHoodDown;CloseHoodUp,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Hoodie_Cropped_UpOpen {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Half-Cut Hoodie,
+        ClothingItem = Hoodie_Cropped_UpOpen,
+        ClothingItemExtra = Hoodie_Cropped_DownOpen;Hoodie_Cropped_Down;Hoodie_Cropped_Up,
+        ClothingItemExtraOption = OpenHoodDown;CloseHoodDown;CloseHoodUp,
+        clothingExtraSubmenu = UpHoodie,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
     }
 
 }

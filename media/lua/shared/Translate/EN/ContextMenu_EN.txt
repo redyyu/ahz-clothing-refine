@@ -1,4 +1,9 @@
 ContextMenu_EN = {
   ContextMenu_Loosen = "Loosen"
   ContextMenu_Tighten = "Tighten",
+
+  ContextMenu_OpenHoodUp = "Open, Hood Up",
+	ContextMenu_OpenHoodDown = "Open, Hood Down",
+	ContextMenu_CloseHoodUp = "Close, Hood Up"
+	ContextMenu_CloseHoodDown = "Close, Hood Down",
 }

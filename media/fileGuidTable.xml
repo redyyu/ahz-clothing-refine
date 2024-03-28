@@ -70,6 +70,10 @@
 		<guid>e19ed9da-d52c-43c8-832e-b7c621c52f14</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Tshirt_CropTopBoob.xml</path>
+		<guid>bd4d9370-54d5-4d3f-9615-ebc3a1c7aed2</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Underpants_Fitness.xml</path>
 		<guid>ac2d9ead-b5c5-428f-9f63-02f0a0c26e5a</guid>
 	</files>
@@ -81,7 +85,23 @@
 		<path>media/clothing/clothingItems/Underpants_TightShorts.xml</path>
 		<guid>042d11fc-9a02-4709-a792-53c304542cd4</guid>
 	</files>
-
+	<files>
+		<path>media/clothing/clothingItems/Hoodie_Cropped_Down.xml</path>
+		<guid>7e4b64b0-2819-42b3-91c2-5036664b52ac</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hoodie_Cropped_DownOpen.xml</path>
+		<guid>b4d9f161-fdc7-4feb-86c8-8cf4c9d35c8c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hoodie_Cropped_UP.xml</path>
+		<guid>97a74e24-0448-484e-aaa2-fc1317c2c5ae</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hoodie_Cropped_UpOpen.xml</path>
+		<guid>7943a44d-d9ca-4002-aec0-fd6aaa002bb3</guid>
+	</files>
+	
 
 	<!-- Vanilla Defaults -->
 	
