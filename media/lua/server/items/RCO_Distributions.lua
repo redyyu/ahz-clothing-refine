@@ -291,7 +291,7 @@ insertDistribution(ProceduralDistributions.list, skirtsDistributionsMap)
 
 
 local shoesDistributionsMap = {
-    ["Shoes_BootsTINT"] = {
+    ["Shoes_BootsDefault"] = {
         BandMerchShelves = 3,
         BandPracticeClothing = 3,
         ClosetShelfGeneric = 0.5,
@@ -320,7 +320,7 @@ local vehicleDistributionsMap = {
     ["Shoes_FancyBoots"] = {
         ClothingTruckBed = 0.5,
     },
-    ["Shoes_BootsTINT"] = {
+    ["Shoes_BootsDefault"] = {
         ClothingTruckBed = 0.5,
     },
 }

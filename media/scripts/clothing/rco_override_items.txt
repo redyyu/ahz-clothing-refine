@@ -64,14 +64,14 @@ module Base
         WorldStaticModel = Boots_Ground,
 	}
 
-	item Shoes_BootsTINT {
+	item Shoes_BootsDefault {
 	    DisplayCategory = Clothing,
 		Type = Clothing,
 		DisplayName = Boots,
-		ClothingItem = Shoes_BootsTINT,
+		ClothingItem = Shoes_BootsDefault,
 		BodyLocation = Shoes,
 		BloodLocation = Shoes,
-		Icon = BootsTINT,
+		Icon = BootsDefault,
 		StompPower = 2.2,
 		ConditionLowerChanceOneIn = 15,
         ConditionMax = 27,
