@@ -6,25 +6,25 @@ UnderwearDefinition = UnderwearDefinition or {};
 
 -- outfit name
 UnderwearDefinition.Hooker = {
-    chanceToSpawn = 100, -- weighted chance, can exced 100
+    chanceToSpawn = 10, -- weighted chance, can exced 100
     gender = "female",
     bottom = 'ROC.Underpants_HighWaistT',
 }
 
 UnderwearDefinition.StripperNaked = {
-    chanceToSpawn = 100, -- weighted chance, can exced 100
+    chanceToSpawn = 10, -- weighted chance, can exced 100
     gender = "female",
     bottom = 'ROC.Underpants_HighWaistT',
 }
 
 UnderwearDefinition.StripperPink = {
-    chanceToSpawn = 100, -- weighted chance, can exced 100
+    chanceToSpawn = 10, -- weighted chance, can exced 100
     gender = "female",
     bottom = 'ROC.Underpants_HighWaistT',
 }
 
 UnderwearDefinition.StripperBlack = {
-    chanceToSpawn = 100, -- weighted chance, can exced 100
+    chanceToSpawn = 10, -- weighted chance, can exced 100
     gender = "female",
     bottom = 'ROC.Underpants_HighWaistT',
 }

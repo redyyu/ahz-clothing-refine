@@ -8,7 +8,7 @@ else
         chanceToSpawn = 100,
         StripperBlackM = {
             name="StripperBlack",
-            toSpawn=1,
+            toSpawn=2,
             gender="female",
             mandatory="true",
         },
@@ -20,7 +20,7 @@ else
         },
         StripperPinkM = {
             name="StripperPink",
-            toSpawn=1,
+            toSpawn=2,
             gender="female",
             mandatory="true",
         },
@@ -57,6 +57,12 @@ if ZombiesZoneDefinition.Nightclub then
 else
     ZombiesZoneDefinition.Nightclub = {
         chanceToSpawn = 100,
+        HookerM = {
+            name="StripperBlack",
+            toSpawn=3,
+            gender="female",
+            mandatory="true",
+        },
         Hooker = {
             name="Hooker",
             gender="female",

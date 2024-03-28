@@ -1582,8 +1582,16 @@
 		<m_AllowTopTint>false</m_AllowTopTint>
 		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
 		<m_items>
-            <!-- Shoes_Wellies -->
-			<itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
+            <!-- Shoes_BlackBoots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+                <!-- Shoes_Fancy -->
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Shoes_Strapped -->
+				<itemGUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</itemGUID>
+			</subItems>
 		</m_items>
 		<m_items>
             <!-- StockingsBlack -->
