@@ -106,3 +106,41 @@ local skirtsDistributionsMap = {
 
 insertDistribution(ProceduralDistributions.list, skirtsDistributionsMap)
 
+
+local shoesDistributionsMap = {
+    ["Shoes_BootsTINT"] = {
+        BandMerchShelves = 3,
+        BandPracticeClothing = 3,
+        ClosetShelfGeneric = 0.5,
+        ClothingStorageFootwear = 3,
+        ClothingStoresBoots = 5,
+        CrateFootwearRandom = 5,
+        CrateRandomJunk = 0.05,
+        FactoryLockers = 2.5,
+    },
+    ["Shoes_FancyBoots"] = {
+        BandMerchShelves = 3,
+        BandPracticeClothing = 3,
+        ClosetShelfGeneric = 0.5,
+        ClothingStorageFootwear = 3,
+        ClothingStoresBoots = 5,
+        CrateFootwearRandom = 5,
+        CrateRandomJunk = 0.05,
+        FactoryLockers = 2.5,
+    },
+}
+
+insertDistribution(ProceduralDistributions.list, shoesDistributionsMap)
+
+
+local vehicleDistributionsMap = {
+    ["Shoes_FancyBoots"] = {
+        ClothingTruckBed = 0.5,
+    },
+    ["Shoes_BootsTINT"] = {
+        ClothingTruckBed = 0.5,
+    },
+}
+
+
+insertDistribution(VehicleDistributions, vehicleDistributionsMap)
