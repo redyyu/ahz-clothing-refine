@@ -377,6 +377,18 @@
 		<guid>f2467000-e675-458c-9f63-5cc2f0ed0f3f</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapArmy.xml</path>
+		<guid>7dead2df-7a17-4c12-a487-40f613d26c69</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapArmy_Reverse.xml</path>
+		<guid>e80e7c12-87c9-4f18-9ab0-c0270c580252</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCap.xml</path>
+		<guid>7b339ad5-da2e-42a5-8a51-ee87239a943c</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Socks_Ankle.xml</path>
 		<guid>ebea15c8-99b3-4e20-905b-d22cf82b8217</guid>
 	</files>
@@ -403,6 +415,14 @@
 	<files>
 		<path>media/clothing/clothingItems/Shoes_RidingBoots.xml</path>
 		<guid>09bc4da2-6038-4575-985b-c27b8dbfef6c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ArmyBoots.xml</path>
+		<guid>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ArmyBootsDesert.xml</path>
+		<guid>1ed51bf2-67e5-41d9-b50d-92f42483868a</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Shoes_BlueTrainers.xml</path>
@@ -587,6 +607,22 @@
 	<files>
 		<path>media/clothing/clothingItems/Skirt_Mini.xml</path>
 		<guid>9bb04028-4cb6-477b-b892-000f1dd54622</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_DefaultTEXTURE_TINT.xml</path>
+		<guid>1e2ed52f-9ee7-464b-9581-a450f2fbb403</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_CamoDesert.xml</path>
+		<guid>94c07af5-2e55-4a1d-9637-6b2326578e7f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_CamoGreen.xml</path>
+		<guid>d325b65d-497d-4c77-8919-74a65172cb94</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Trousers_CamoUrban.xml</path>
+		<guid>2424958a-64aa-4494-aeba-ad05a08d5917</guid>
 	</files>
 
 	<!-- Accessories -->
