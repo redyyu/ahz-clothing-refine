@@ -1,4 +1,3 @@
-name=ahz clothing Extends
-id=ahzclothingExtends
-require=ahzclothing
-poster=preview.png
+name=Refined Clothing Outfits
+id=RefinedClothingOutfits
+poster=poster.png

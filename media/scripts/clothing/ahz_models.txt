@@ -1,0 +1,27 @@
+module Base
+{
+    model Skirt_ShortPleated_Ground {
+        mesh = WorldItems/Clothing/Skirt_ShortPleated_Ground,
+        scale = 1
+    }
+    model Skirt_MiniPleated_Ground {
+        mesh = WorldItems/Clothing/Skirt_MiniPleated_Ground,
+        scale = 1
+    }
+    model Stockings_FitnessStockings_Ground {
+        mesh = WorldItems/Clothing/Stockings_FitnessStockings_Ground,
+        scale = 1
+    }
+    model Sweater_FitnessArms_Ground {
+        mesh = WorldItems/Clothing/Sweater_FitnessArms_Ground,
+        scale = 1
+    }
+    model Underwear_Bottom_Ground {
+        mesh = WorldItems/Clothing/Underwear_Bottom_Ground,
+        scale = 1
+    }
+    model Underwear_Top_Ground {
+        mesh = WorldItems/Clothing/Underwear_Top_Ground,
+        scale = 1
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>skinned\clothes\Skirt_MiniPleated</m_MaleModel>
+    <m_FemaleModel>skinned\clothes\Skirt_MiniPleated</m_FemaleModel>
+    <m_GUID>79224ae5-fe63-40ef-b132-c2bddd1cc2f6</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <textureChoices>clothes\Skirt\pleated_plain1</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid1</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid2</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid3</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid4</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid5</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid6</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid7</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid8</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid9</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_plaid10</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe1</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe2</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe3</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe4</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe5</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe6</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_stripe7</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe1</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe2</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe3</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe4</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe5</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe6</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe7</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_trimstripe8</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_twostripe1</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_twostripe2</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_twostripe3</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_twostripe4</textureChoices>
+    <textureChoices>clothes\Skirt\pleated_twostripe5</textureChoices>
+</clothingItem>

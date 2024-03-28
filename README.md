@@ -1,4 +1,6 @@
-# Ahz Clothing Extend
+# RefinedClothingOutfits
 a project zomboid mod
 
-Add zombie outfits and change some translate.
+Add modified clothing outfits.
+
+Credit to: `ahz clothing`
