@@ -720,6 +720,310 @@
         </m_items>
     </m_FemaleOutfits>
 
+    <m_FemaleOutfits>
+		<m_Name>Hooker</m_Name>
+		<m_Guid>59a8bf0d-0857-49ca-9bc1-620589392784</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+        <m_items>
+            <!-- Hat_Beret -->
+			<probability>0.4</probability>
+			<itemGUID>f2467000-e675-458c-9f63-5cc2f0ed0f3f</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Boots (TINT) -->
+			<itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            <subItems>
+                <!-- Fancy Boots -->
+				<itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Fancy Shoes -->
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- StockingsBlack -->
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+                <!-- StockingsBlackSemiTrans -->
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- StockingsBlackTrans -->
+				<itemGUID>eedee622-9309-4948-891b-a69ecd106936</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlack -->
+				<itemGUID>6d483049-2392-47e1-a6f8-c10ef5c1b040</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlackSemiTrans -->
+				<itemGUID>88225fb4-a18f-46eb-96d1-2ce415f52bf0</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlackTrans -->
+				<itemGUID>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- TightsBlackFishnet -->
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Dress_MiniPoloNeck -->
+			<itemGUID>72c6293c-3ecf-44ab-a9b4-b48c13bdeeb0</itemGUID>
+            <subItems>
+                <!-- Dress_MiniTube -->
+				<itemGUID>eeb281f6-5243-4b19-9451-01e0f92b09c0</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Dress_MiniUCut -->
+				<itemGUID>7e530ed1-e5c0-4934-950a-d62ae24d9793</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Dress_MiniVCut -->
+				<itemGUID>7735f7e9-aec6-4079-b5d3-4d4d8a3f2891</itemGUID>
+			</subItems>
+		</m_items>
+        <m_items>
+            <!-- Gloves_LongWomenGloves -->
+			<probability>0.3</probability>
+			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Glasses_Normal -->
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+            <subItems>
+                <!-- Glasses_Sun -->
+				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Ring_Left_RingFinger_Gold -->
+			<probability>0.5</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldDiamond -->
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldRuby -->
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_Silver -->
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_SilverDiamond -->
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Earring_LoopLrg_Gold_Both -->
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+                <!-- Earring_Dangly_Diamond_Both -->
+				<itemGUID>eb1e345b-9993-4b70-b021-6d1d18a176b1</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Emerald_Both -->
+				<itemGUID>5cfb7a5d-5e1c-4a5b-9fdc-f21f6a136d7c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Pearl_Both -->
+				<itemGUID>1cdfc423-a4c7-46cc-a900-7b3ead0fd9c7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Ruby_Both -->
+				<itemGUID>ade9c502-76b1-4a6f-9d70-382cb803c82b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Sapphire_Both -->
+				<itemGUID>0cc23833-5eb1-4212-af52-5889de7f60d7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopLrg_Silver_Both -->
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopMed_Gold_Both -->
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopMed_Silver_Both -->
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Gold_Both -->
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Gold_Top -->
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Silver_Both -->
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Silver_Top -->
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Pearl_Both -->
+				<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Emerald_Both -->
+				<itemGUID>028ce25c-036a-44c0-ac3e-1d576cc28dc8</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Ruby_Both -->
+				<itemGUID>570f2884-f8d9-4e8a-a796-864f691a29fe</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Sapphire_Both -->
+				<itemGUID>a0dead26-e3da-4319-ace1-0be733c1e39f</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stud_Gold_Both -->
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stud_Silver_Both -->
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Silver -->
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+                <!-- Necklace_Crucifix -->
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_Gold -->
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_GoldDiamond -->
+				<itemGUID>778cc04b-761d-4268-9479-09829468775c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_GoldRuby -->
+				<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_Pearl -->
+				<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverCrucifix -->
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverDiamond -->
+				<itemGUID>0dc0ceda-9162-4abd-b263-7f32ff497e21</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverSapphire -->
+				<itemGUID>25c5a9a3-3fe8-4565-9a8e-af2208167902</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Amber -->
+				<itemGUID>dd9c41f4-cbcd-4ae1-9ee4-b0202292a57a</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Gold -->
+				<itemGUID>31d1387a-2dc0-4951-870e-ead0e7dd02de</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_GoldDiamond -->
+				<itemGUID>a6b47c0c-d541-4932-b216-70568ad664dc</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Silver -->
+				<itemGUID>96f1486d-b177-47ff-a746-3ca9d4dd9fe9</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverDiamond -->
+				<itemGUID>98077c59-2961-45ce-8247-2b14b4876659</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverEmerald -->
+				<itemGUID>e0467d61-85a6-4bec-bcdd-8676d602282a</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverSapphire -->
+				<itemGUID>81a92257-cb26-4034-923d-5f101f92eada</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Necklace_Choker -->
+			    <itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Necklace_Choker_Amber -->
+                <itemGUID>950fc74c-d318-49c1-af33-6c251a36b7dc</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Necklace_Choker_Diamond -->
+                <itemGUID>83bc7ff3-3c43-4306-abee-ac8b708cbea7</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Necklace_Choker_Sapphire -->
+                <itemGUID>fde08693-6d3e-4897-a1f8-3d4eda1bc711</itemGUID>
+            </subItems>
+		</m_items>
+		<m_items>
+            <!-- Ring_Left_RingFinger_Gold -->
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldDiamond -->
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldRuby -->
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_Silver -->
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_SilverDiamond -->
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+            <!-- WristWatch_Left_ClassicGold -->
+			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+			<subItems>
+                <!-- WristWatch_Left_DigitalDress -->
+				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+            <!-- Bracelet_BangleRightGold -->
+			<itemGUID>f0dd71ac-a98f-4251-899f-30d727167722</itemGUID>
+			<subItems>
+                <!-- Bracelet_BangleRightSilver -->
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Bracelet_ChainRightGold -->
+				<itemGUID>ea26af86-e01c-45f9-8d06-09ad99c6bc55</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Bracelet_ChainRightSilver -->
+				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
 
     <!-- Vanilla Overrides -->
     <m_FemaleOutfits>
@@ -1094,6 +1398,303 @@
 		<m_items>
             <!-- Necklace_Choker -->
 			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+    <m_FemaleOutfits>
+		<m_Name>Classy</m_Name>
+		<m_Guid>7cc96266-836c-45a5-8ebf-091b315693c2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items>
+            <!-- Socks_Ankle -->
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			<subItems>
+                <!-- StockingsBlackSemiTrans -->
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- StockingsBlackTrans -->
+				<itemGUID>eedee622-9309-4948-891b-a69ecd106936</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- StockingsBlack -->
+				<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlack -->
+				<itemGUID>6d483049-2392-47e1-a6f8-c10ef5c1b040</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlackSemiTrans -->
+				<itemGUID>88225fb4-a18f-46eb-96d1-2ce415f52bf0</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- TightsBlackTrans -->
+				<itemGUID>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- TightsBlackFishnet -->
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Shoes_Random -->
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+				<itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Fancy Boots -->
+				<itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Fancy Shoes -->
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Hat_Beret -->
+			<probability>0.4</probability>
+			<itemGUID>f2467000-e675-458c-9f63-5cc2f0ed0f3f</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Dress_Long -->
+			<itemGUID>99f1aa77-0c9c-4f83-a903-c9ba97ab52e8</itemGUID>
+			<subItems>
+                <!-- Dress_Knees -->
+				<itemGUID>8fe81905-2dcc-4c6b-95ce-286c2270d73d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Dress_Normal -->
+				<itemGUID>c3cab19e-c9b3-42a2-91e3-52937394d8d2</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Gloves_LongWomenGloves -->
+			<probability>0.3</probability>
+			<itemGUID>9c36a162-1348-46ad-81bd-70bf3ed7a93e</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Glasses_Normal -->
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+            <subItems>
+                <!-- Glasses_Sun -->
+				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Ring_Left_RingFinger_Gold -->
+			<probability>0.5</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldDiamond -->
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldRuby -->
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_Silver -->
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_SilverDiamond -->
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Earring_LoopLrg_Gold_Both -->
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+                <!-- Earring_Dangly_Diamond_Both -->
+				<itemGUID>eb1e345b-9993-4b70-b021-6d1d18a176b1</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Emerald_Both -->
+				<itemGUID>5cfb7a5d-5e1c-4a5b-9fdc-f21f6a136d7c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Pearl_Both -->
+				<itemGUID>1cdfc423-a4c7-46cc-a900-7b3ead0fd9c7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Ruby_Both -->
+				<itemGUID>ade9c502-76b1-4a6f-9d70-382cb803c82b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Dangly_Sapphire_Both -->
+				<itemGUID>0cc23833-5eb1-4212-af52-5889de7f60d7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopLrg_Silver_Both -->
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopMed_Gold_Both -->
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopMed_Silver_Both -->
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Gold_Both -->
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Gold_Top -->
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Silver_Both -->
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_LoopSmall_Silver_Top -->
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Pearl_Both -->
+				<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Emerald_Both -->
+				<itemGUID>028ce25c-036a-44c0-ac3e-1d576cc28dc8</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Ruby_Both -->
+				<itemGUID>570f2884-f8d9-4e8a-a796-864f691a29fe</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stone_Sapphire_Both -->
+				<itemGUID>a0dead26-e3da-4319-ace1-0be733c1e39f</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stud_Gold_Both -->
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Earring_Stud_Silver_Both -->
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Silver -->
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+                <!-- Necklace_Crucifix -->
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_Gold -->
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_GoldDiamond -->
+				<itemGUID>778cc04b-761d-4268-9479-09829468775c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_GoldRuby -->
+				<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_Pearl -->
+				<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverCrucifix -->
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverDiamond -->
+				<itemGUID>0dc0ceda-9162-4abd-b263-7f32ff497e21</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_SilverSapphire -->
+				<itemGUID>25c5a9a3-3fe8-4565-9a8e-af2208167902</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Necklace_YingYang -->
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Amber -->
+				<itemGUID>dd9c41f4-cbcd-4ae1-9ee4-b0202292a57a</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Gold -->
+				<itemGUID>31d1387a-2dc0-4951-870e-ead0e7dd02de</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_GoldDiamond -->
+				<itemGUID>a6b47c0c-d541-4932-b216-70568ad664dc</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_Silver -->
+				<itemGUID>96f1486d-b177-47ff-a746-3ca9d4dd9fe9</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverDiamond -->
+				<itemGUID>98077c59-2961-45ce-8247-2b14b4876659</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverEmerald -->
+				<itemGUID>e0467d61-85a6-4bec-bcdd-8676d602282a</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- NecklaceLong_SilverSapphire -->
+				<itemGUID>81a92257-cb26-4034-923d-5f101f92eada</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Ring_Left_RingFinger_Gold -->
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldDiamond -->
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_GoldRuby -->
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_Silver -->
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Ring_Left_RingFinger_SilverDiamond -->
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+            <!-- WristWatch_Left_ClassicGold -->
+			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+			<subItems>
+                <!-- WristWatch_Left_DigitalDress -->
+				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+            <!-- Bracelet_BangleRightGold -->
+			<itemGUID>f0dd71ac-a98f-4251-899f-30d727167722</itemGUID>
+			<subItems>
+                <!-- Bracelet_BangleRightSilver -->
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Bracelet_ChainRightGold -->
+				<itemGUID>ea26af86-e01c-45f9-8d06-09ad99c6bc55</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Bracelet_ChainRightSilver -->
+				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+			</subItems>
 		</m_items>
 	</m_FemaleOutfits>
 

@@ -18,6 +18,71 @@ table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtFitnessInstructor"
 table.insert(ZombiesZoneDefinition.School, {name = "SkirtGirl", chance=5})
 table.insert(ZombiesZoneDefinition.School, {name = "SkirtParty", chance=1})
 
+if not ZombiesZoneDefinition.Stripclub then
+    ZombiesZoneDefinition.Stripclub = {
+        chanceToSpawn = 100,
+        StripperBlackM = {
+            name="StripperBlack",
+            toSpawn=1,
+            gender="female",
+            mandatory="true",
+        },
+        StripperNakedM = {
+            name="StripperNaked",
+            toSpawn=1,
+            gender="female",
+            mandatory="true",
+        },
+        StripperPinkM = {
+            name="StripperPink",
+            toSpawn=1,
+            gender="female",
+            mandatory="true",
+        },
+        StripperBlack = {
+            name="StripperBlack",
+            gender="female",
+            chance=75,
+        },
+        StripperNaked = {
+            name="StripperNaked",
+            gender="female",
+            chance=75,
+        },
+        StripperPink = {
+            name="StripperPink",
+            gender="female",
+            chance=75,
+        },
+        WaiterStripper = {
+            name="WaiterStripper",
+            gender="female",
+            chance=75,
+        },
+        Classy = {
+            name="Classy",
+            gender="male",
+            chance=75,
+        },
+    }
+end
+
+if not ZombiesZoneDefinition.Nightclub then
+    ZombiesZoneDefinition.Nightclub = {
+        chanceToSpawn = 100,
+        Hooker = {
+            name="Hooker",
+            gender="female",
+            chance=75,
+        },
+        Classy = {
+            name="Classy",
+            chance=75,
+        },
+    }
+end
+
+ZombiesZoneDefinition.Nightclub
 ZombiesZoneDefinition.Golf
 ZombiesZoneDefinition.StreetSports
 ZombiesZoneDefinition.HotelRich
