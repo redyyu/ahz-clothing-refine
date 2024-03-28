@@ -126,6 +126,14 @@
             <subItems>
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+                <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_FancyBoots -->
+                <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
         </m_items>
         <!-- Watch -->
         <m_items>
@@ -334,6 +342,14 @@
             <subItems>
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+                <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_FancyBoots -->
+                <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
         </m_items>
         <!-- Gloves -->
         <m_items>
@@ -528,6 +544,14 @@
             <subItems>
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+                <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_FancyBoots -->
+                <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
         </m_items>
         <!-- Watch -->
         <m_items>
@@ -674,6 +698,14 @@
             <subItems>
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+                <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_FancyBoots -->
+                <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
         </m_items>
         <!-- Watch -->
         <m_items>
@@ -687,4 +719,382 @@
             </subItems>
         </m_items>
     </m_FemaleOutfits>
+
+
+    <!-- Vanilla Overrides -->
+    <m_FemaleOutfits>
+		<m_Name>StripperNaked</m_Name>
+		<m_Guid>2268190c-2734-465e-a8b7-5ead3601cbc3</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+            <!-- StockingsBlack -->
+			<probability>0.7</probability>
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+                <!-- StockingsWhite -->
+				<itemGUID>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- TightsBlackFishnet -->
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Garter -->
+			<probability>0.5</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Hat_BunnyEarsBlack -->
+			<probability>0.3</probability>
+			<itemGUID>235a5c5b-5ceb-4d87-998a-3811cea0d137</itemGUID>
+			<subItems>
+                <!-- Hat_BunnyEarsWhite -->
+				<itemGUID>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Choker -->
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Skirt_Mini -->
+			<probability>0.4</probability>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BellyButton_DangleGold -->
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+                <!-- BellyButton_DangleGoldRuby -->
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilver -->
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilverDiamond -->
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGold -->
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldDiamond.xml -->
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldRuby -->
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilver -->
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverAmethyst -->
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverDiamond -->
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverRuby -->
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGold -->
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGoldDiamond -->
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilver -->
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilverDiamond -->
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+		<m_Name>StripperBlack</m_Name>
+		<m_Guid>c79cd2b6-b08d-4725-b61d-f8f358ef5eb0</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+            <!-- BunnySuitBlack -->
+			<itemGUID>c4d10706-fb2f-4ec7-8ebb-863b1881706b</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- StockingsBlack -->
+			<probability>0.7</probability>
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+                <!-- StockingsBlackSemiTrans -->
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- TightsBlackFishnet -->
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Garter -->
+			<probability>0.7</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Shoes_BlackBoots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+                <!-- Shoes_Fancy -->
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Shoes_Strapped -->
+				<itemGUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Hat_BunnyEarsBlack -->
+			<itemGUID>235a5c5b-5ceb-4d87-998a-3811cea0d137</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BunnyTail -->
+			<itemGUID>9d9267cd-a01f-4246-8834-ccd39e3c9525</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Choker -->
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BellyButton_DangleGold -->
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+                <!-- BellyButton_DangleGoldRuby -->
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilver -->
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilverDiamond -->
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGold -->
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldDiamond.xml -->
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldRuby -->
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilver -->
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverAmethyst -->
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverDiamond -->
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverRuby -->
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGold -->
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGoldDiamond -->
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilver -->
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilverDiamond -->
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+		<m_Name>StripperPink</m_Name>
+		<m_Guid>39c0f56e-4cfc-42ed-8190-20952b419838</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+            <!-- StockingsWhite -->
+			<probability>0.5</probability>
+			<itemGUID>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Garter -->
+			<probability>0.5</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Shoes_BlackBoots -->
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+                <!-- Shoes_Fancy -->
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- Shoes_Strapped -->
+				<itemGUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- Hat_BunnyEarsWhite -->
+			<itemGUID>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BunnySuitPink -->
+			<itemGUID>f13d6450-cdad-4a81-aaf8-65d7d98c46e4</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BunnyTail -->
+			<itemGUID>9d9267cd-a01f-4246-8834-ccd39e3c9525</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Choker -->
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+			<!-- BellyButton_DangleGold -->
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+                <!-- BellyButton_DangleGoldRuby -->
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilver -->
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_DangleSilverDiamond -->
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGold -->
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldDiamond.xml -->
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingGoldRuby -->
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilver -->
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverAmethyst -->
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverDiamond -->
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_RingSilverRuby -->
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGold -->
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudGoldDiamond -->
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilver -->
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- BellyButton_StudSilverDiamond -->
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+    <m_FemaleOutfits>
+		<m_Name>WaiterStripper</m_Name>
+		<m_Guid>170db8ce-e48c-42a9-a724-d1ba3d40aba2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+            <!-- Shoes_Wellies -->
+			<itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- StockingsBlack -->
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+                <!-- StockingsBlackSemiTrans -->
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+			<subItems>
+                <!-- TightsBlackFishnet -->
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+            <!-- BunnySuitBlack -->
+			<itemGUID>c4d10706-fb2f-4ec7-8ebb-863b1881706b</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- BunnyTail -->
+			<itemGUID>9d9267cd-a01f-4246-8834-ccd39e3c9525</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Hat_BunnyEarsBlack -->
+			<itemGUID>235a5c5b-5ceb-4d87-998a-3811cea0d137</itemGUID>
+		</m_items>
+		<m_items>
+            <!-- Necklace_Choker -->
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
 </outfitManager>

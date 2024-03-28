@@ -122,12 +122,32 @@
 		<guid>7735f7e9-aec6-4079-b5d3-4d4d8a3f2891</guid>
 	</files>
 	
+	<!-- Boots (TINT)-->
+    <files>
+        <path>media/clothing/clothingItems/Shoes_BootsTINT.xml</path>
+        <guid>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</guid>
+    </files>
+
+    <!-- Fancy Boots -->
+    <files>
+        <path>media/clothing/clothingItems/Shoes_FancyBoots.xml</path>
+        <guid>c72a5755-5aef-4499-ba73-48b6416d0b00</guid>
+    </files>
+
 
 	<!-- Vanilla Defaults -->
 	
 	<files>
 		<path>media/clothing/clothingItems/Shorts_ShortSport.xml</path>
 		<guid>e22e4bfa-f550-4e5a-a380-5eaad6b7111c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_Fancy.xml</path>
+		<guid>b87c05cc-9a93-4572-99f8-005e350ee723</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_Strapped.xml</path>
+		<guid>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</guid>
 	</files>
 	<files>
 		<path>media/clothing/clothingItems/Shoes_BlackBoots.xml</path>
@@ -316,6 +336,97 @@
 	<files>
 		<path>media/clothing/clothingItems/Bag_DuffelBag.xml</path>
 		<guid>b02d3217-b692-4035-8a61-8c4305998464</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Mini.xml</path>
+		<guid>9bb04028-4cb6-477b-b892-000f1dd54622</guid>
+	</files>
+
+	<!-- Accessories -->
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_DangleGold.xml</path>
+		<guid>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_DangleGoldRuby.xml</path>
+		<guid>9f994766-9c05-4257-b840-661e9a805c16</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_DangleSilver.xml</path>
+		<guid>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_DangleSilverDiamond.xml</path>
+		<guid>e49f1352-8f1a-4d15-8a5d-20395132f797</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingGold.xml</path>
+		<guid>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingGoldDiamond.xml</path>
+		<guid>907b406e-7637-4ae8-9454-643ff61eb2b7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingGoldRuby.xml</path>
+		<guid>e7236933-9139-4d6a-9e5d-ea818b1190dd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingSilver.xml</path>
+		<guid>94dc4673-2c6f-47ba-8750-0749c5452eab</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingSilverAmethyst.xml</path>
+		<guid>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingSilverDiamond.xml</path>
+		<guid>d962c2f4-d1fc-45aa-a099-2c29efb19320</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_RingSilverRuby.xml</path>
+		<guid>e9914ee6-96eb-41cc-b6de-980fdbde8edf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_StudGold.xml</path>
+		<guid>111b43e6-3121-4537-8d41-b4ca11a7e107</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_StudGoldDiamond.xml</path>
+		<guid>d5395b87-1a26-4920-a8f9-2e3cde033f3b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_StudSilver.xml</path>
+		<guid>737d3d4c-6909-4392-81e7-1d429f94d67d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BellyButton_StudSilverDiamond.xml</path>
+		<guid>be755761-5bee-4c65-b7bc-0b63332c4f9b</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Garter.xml</path>
+		<guid>5e04c786-40fa-4456-9c24-c0b605914ff0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BunnyEarsBlack.xml</path>
+		<guid>235a5c5b-5ceb-4d87-998a-3811cea0d137</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BunnyEarsWhite.xml</path>
+		<guid>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BunnyTail.xml</path>
+		<guid>9d9267cd-a01f-4246-8834-ccd39e3c9525</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BunnySuitBlack.xml</path>
+		<guid>c4d10706-fb2f-4ec7-8ebb-863b1881706b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/BunnySuitPink.xml</path>
+		<guid>f13d6450-cdad-4a81-aaf8-65d7d98c46e4</guid>
 	</files>
 
 </fileGuidTable>
