@@ -104,5 +104,6 @@ local skirtsDistributionsMap = {
     
 }
 
+
 insertDistribution(ProceduralDistributions.list, skirtsDistributionsMap)
 
