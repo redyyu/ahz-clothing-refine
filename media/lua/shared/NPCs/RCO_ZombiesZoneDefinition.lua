@@ -1,22 +1,3 @@
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtGirl", chance=1})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtBiker", chance=0.5})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtParty", chance=0.5})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtFitnessInstructor", chance=0.5})
-
-table.insert(ZombiesZoneDefinition.Shelter, {name = "SkirtBiker", chance=5})
-table.insert(ZombiesZoneDefinition.Rocker, {name = "SkirtBiker", chance=15})
-table.insert(ZombiesZoneDefinition.StreetPoor, {name = "SkirtBiker", chance=10})
-table.insert(ZombiesZoneDefinition.Bar, {name = "SkirtBiker", chance=15})
-
-table.insert(ZombiesZoneDefinition.Rich, {name = "SkirtParty", chance=15})
-table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtParty", chance=10})
-table.insert(ZombiesZoneDefinition.FancyHotel, {name = "SkirtParty", chance=5})
-
-table.insert(ZombiesZoneDefinition.Athletic, {name = "SkirtFitnessInstructor", chance=30})
-table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtFitnessInstructor", chance=50})
-
-table.insert(ZombiesZoneDefinition.School, {name = "SkirtGirl", chance=5})
-table.insert(ZombiesZoneDefinition.School, {name = "SkirtParty", chance=1})
 
 if not ZombiesZoneDefinition.Stripclub then
     ZombiesZoneDefinition.Stripclub = {
@@ -82,23 +63,53 @@ if not ZombiesZoneDefinition.Nightclub then
     }
 end
 
-ZombiesZoneDefinition.Nightclub
-ZombiesZoneDefinition.Golf
-ZombiesZoneDefinition.StreetSports
-ZombiesZoneDefinition.HotelRich
+table.insert(ZombiesZoneDefinition.Default, {name = "Hooker", chance=0.5})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtGirl", chance=0.5})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtBiker", chance=0.25})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtParty", chance=0.25})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtSport", chance=0.25})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtAmry", chance=0.25})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtFitnessInstructor", chance=0.5})
 
-ZombiesZoneDefinition.Bar
 
-ZombiesZoneDefinition.Wedding
+table.insert(ZombiesZoneDefinition.Shelter, {name = "SkirtBiker", chance=5})
+table.insert(ZombiesZoneDefinition.Rocker, {name = "SkirtBiker", chance=5})
+table.insert(ZombiesZoneDefinition.StreetPoor, {name = "SkirtBiker", chance=5})
+table.insert(ZombiesZoneDefinition.Bar, {name = "SkirtBiker", chance=5})
 
-ZombiesZoneDefinition.Beach = {
-	Tourist = {
-		name="Tourist",
-		chance=30,
-	},
-	Swimmer = {
-		name="Swimmer",
-		chance=70,
-	},
-}
+table.insert(ZombiesZoneDefinition.Rich, {name = "SkirtParty", chance=10})
+table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtParty", chance=10})
+table.insert(ZombiesZoneDefinition.FancyHotel, {name = "SkirtParty", chance=5})
+table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtParty", chance=5})
 
+table.insert(ZombiesZoneDefinition.Army, {name = "SkirtArmy", chance=20})
+table.insert(ZombiesZoneDefinition.SecretBase, {name = "SkirtArmy", chance=15})
+table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtArmy", chance=5})
+table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtArmy", chance=5})
+
+table.insert(ZombiesZoneDefinition.Golf, {name = "Hooker", chance=15})
+table.insert(ZombiesZoneDefinition.HotelRich, {name = "Hooker", chance=15})
+table.insert(ZombiesZoneDefinition.FancyHotel, {name = "Hooker", chance=15})
+table.insert(ZombiesZoneDefinition.Bar, {name = "Hooker", chance=25})
+table.insert(ZombiesZoneDefinition.Beach, {name = "Hooker", chance=5})
+
+table.insert(ZombiesZoneDefinition.Rich, {name = "SkirtFitnessInstructor", chance=10})
+table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtFitnessInstructor", chance=10})
+table.insert(ZombiesZoneDefinition.StreetSports, {name = "SkirtFitnessInstructor", chance=15})
+table.insert(ZombiesZoneDefinition.FancyHotel, {name = "SkirtFitnessInstructor", chance=5})
+table.insert(ZombiesZoneDefinition.HotelRich, {name = "SkirtFitnessInstructor", chance=5})
+table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtFitnessInstructor", chance=5})
+table.insert(ZombiesZoneDefinition.Golf, {name = "SkirtFitnessInstructor", chance=5})
+table.insert(ZombiesZoneDefinition.Athletic, {name = "SkirtFitnessInstructor", chance=20})
+
+table.insert(ZombiesZoneDefinition.Rich, {name = "SkirtSport", chance=10})
+table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtSport", chance=20})
+table.insert(ZombiesZoneDefinition.StreetSports, {name = "SkirtSport", chance=15})
+table.insert(ZombiesZoneDefinition.FancyHotel, {name = "SkirtSport", chance=5})
+table.insert(ZombiesZoneDefinition.HotelRich, {name = "SkirtSport", chance=5})
+table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtSport", chance=5})
+table.insert(ZombiesZoneDefinition.Golf, {name = "SkirtSport", chance=5})
+table.insert(ZombiesZoneDefinition.Athletic, {name = "SkirtSport", chance=10})
+
+table.insert(ZombiesZoneDefinition.School, {name = "SkirtGirl", chance=5})
+table.insert(ZombiesZoneDefinition.School, {name = "SkirtParty", chance=1})
