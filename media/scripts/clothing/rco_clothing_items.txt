@@ -351,7 +351,7 @@ module Base
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini Belly Cut Dress,
-        ClothingItem = Mini_dress_Belly_Cut,
+        ClothingItem = Dress_MiniBellyCut,
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = BellyDress,
@@ -364,11 +364,11 @@ module Base
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini Deep U Dress,
-        ClothingItem = Mini_dress_U_Cut,
+        ClothingItem = Dress_MiniUCut,
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = UDress,
-        Weight = 0.1,
+        Weight = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
@@ -377,21 +377,20 @@ module Base
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini Deep V dress,
-        ClothingItem = Mini_dress_V_Cut,
+        ClothingItem = Dress_MiniVCut,
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = VDress,
-        Weight = 0.1,
+        Weight = 0.2,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
 
-    item Dress_MiniTube{
-
+    item Dress_MiniTube {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini TubeDress,
-        ClothingItem = TubeDress_Mini_Cloth,
+        ClothingItem = Dress_MiniTube,
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = TubeDress,
@@ -400,11 +399,11 @@ module Base
         WorldStaticModel = Dress_Long_Ground,
     }
 
-    item Dress_MiniTNeck {
+    item Dress_MiniTPoloNeck {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini PoloNeck Dress,
-        ClothingItem = TNeckDress_Mini_Cloth,
+        ClothingItem = Dress_MiniPoloNeck,
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = PoloNeckDress,

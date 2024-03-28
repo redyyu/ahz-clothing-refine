@@ -12,5 +12,5 @@
 	<m_Masks>5</m_Masks>
 	<m_MasksFolder>media/textures/Clothes/Hoodie/Masks_Down</m_MasksFolder>
 	<m_UnderlayMasksFolder>media/textures/Clothes/Hoodie/Masks_Down</m_UnderlayMasksFolder>
-	<textureChoices>clothes\hoodie\HoodieUP_Cropped</textureChoices>
+	<textureChoices>clothes/Hoodie/hoodie_up_cropped</textureChoices>
 </clothingItem>

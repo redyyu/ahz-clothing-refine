@@ -101,6 +101,26 @@
 		<path>media/clothing/clothingItems/Hoodie_Cropped_UpOpen.xml</path>
 		<guid>7943a44d-d9ca-4002-aec0-fd6aaa002bb3</guid>
 	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_MiniBellyCut.xml</path>
+		<guid>3173c265-f332-4294-867f-00637a09c4e2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_MiniPoloNeck.xml</path>
+		<guid>72c6293c-3ecf-44ab-a9b4-b48c13bdeeb0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_MiniTube.xml</path>
+		<guid>eeb281f6-5243-4b19-9451-01e0f92b09c0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_MiniUCut.xml</path>
+		<guid>7e530ed1-e5c0-4934-950a-d62ae24d9793</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Dress_MiniVCut.xml</path>
+		<guid>7735f7e9-aec6-4079-b5d3-4d4d8a3f2891</guid>
+	</files>
 	
 
 	<!-- Vanilla Defaults -->
