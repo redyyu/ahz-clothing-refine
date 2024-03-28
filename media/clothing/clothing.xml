@@ -23,7 +23,7 @@
             <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
         </m_items>
         <m_items>
-            <!-- fitness arm warmers -->
+            <!-- fitness arms -->
             <probability>0.6</probability>
             <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
         </m_items>
@@ -169,7 +169,7 @@
             <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
         </m_items>
         <m_items>
-            <!-- fitness arm warmers -->
+            <!-- fitness arms -->
             <probability>0.6</probability>
             <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
         </m_items>
@@ -260,7 +260,7 @@
             <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
         </m_items>
         <m_items>
-            <!-- fitness arm warmers -->
+            <!-- fitness arms -->
             <probability>0.6</probability>
             <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
         </m_items>
@@ -484,7 +484,7 @@
             <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
         </m_items>
         <m_items>
-            <!-- fitness arm warmers -->
+            <!-- fitness arms -->
             <probability>0.6</probability>
             <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
         </m_items>
@@ -595,7 +595,7 @@
             <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
         </m_items>
         <m_items>
-            <!-- fitness arm warmers -->
+            <!-- fitness arms -->
             <probability>0.6</probability>
             <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
         </m_items>
@@ -635,6 +635,134 @@
             </subItems>
             <subItems>
                 <itemGUID>1c805e79-d1a4-425c-8d79-ca2fa4b4b3e4</itemGUID>
+            </subItems>
+        </m_items>
+        <!-- Socks -->
+        <m_items>
+            <probability>0.5</probability>
+            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+        </m_items>
+        <m_items>
+            <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+            <subItems>
+                <itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>eedee622-9309-4948-891b-a69ecd106936</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>6d483049-2392-47e1-a6f8-c10ef5c1b040</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>88225fb4-a18f-46eb-96d1-2ce415f52bf0</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</itemGUID>
+            </subItems>
+        </m_items>
+        <!-- Necklace -->
+        <m_items>
+            <probability>0.7</probability>
+            <itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+            <subItems>
+                <itemGUID>950fc74c-d318-49c1-af33-6c251a36b7dc</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>83bc7ff3-3c43-4306-abee-ac8b708cbea7</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>fde08693-6d3e-4897-a1f8-3d4eda1bc711</itemGUID>
+            </subItems>
+        </m_items>
+        <!-- Shoes -->
+        <m_items>
+            <itemGUID>95047b8a-0248-46ad-af29-cde76530915b</itemGUID>
+            <subItems>
+                <itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>09bc4da2-6038-4575-985b-c27b8dbfef6c</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>b6bb377a-6b18-407a-8e9f-edf949fb1fe1</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_BootsTINT -->
+                <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_FancyBoots -->
+                <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+        </m_items>
+        <!-- Watch -->
+        <m_items>
+            <probability>0.3</probability>
+            <itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+            <subItems>
+                <itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+            </subItems>
+            <subItems>
+                <itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+            </subItems>
+        </m_items>
+    </m_FemaleOutfits>
+
+    <m_FemaleOutfits>
+        <m_Name>SkirtSportGirl</m_Name>
+        <m_Guid>5bdeaaba-5dcd-4de4-bb71-a2ebaa06bc9a</m_Guid>
+        <m_Top>false</m_Top>
+        <m_Pants>false</m_Pants>
+        <!-- Underwear -->
+        <m_items>
+            <!-- high waist under pants -->
+            <itemGUID>6227e641-a263-4ff9-9897-c671f7eb4ae5</itemGUID>
+            <subItems>
+                <!-- tights short under pants -->
+                <itemGUID>042d11fc-9a02-4709-a792-53c304542cd4</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- fitness under pants -->
+                <itemGUID>ac2d9ead-b5c5-428f-9f63-02f0a0c26e5a</itemGUID>
+            </subItems>
+        </m_items>
+        <m_items>
+            <!-- fitness bra -->
+            <itemGUID>8b7cfa9b-bab9-42da-b8a1-b69cad56e4f1</itemGUID>
+        </m_items>
+        <m_items>
+            <!-- fitness arms -->
+            <probability>0.6</probability>
+            <itemGUID>45d2d24b-72ab-4d0a-aea5-dd57fe1766ee</itemGUID>
+        </m_items>
+        <!-- Shirt -->
+        <m_items>
+            <!-- fitness long sleeve shirt -->
+            <probability>0.9</probability>
+            <itemGUID>e7686982-84e4-4592-b6ed-40cfc34f9c11</itemGUID>
+            <subItems>
+                <!-- fitness short sleeve shirt -->
+                <itemGUID>e19ed9da-d52c-43c8-832e-b7c621c52f14</itemGUID>
+            </subItems>
+        </m_items>
+        <!-- Skirt -->
+        <m_items>
+            <!-- Skirt_ShortPleated_Camo -->
+            <itemGUID>6be00088-89bf-4002-a24c-6c24a9a39de0</itemGUID>
+            <subItems>
+                <itemGUID>9d1b7850-9ba0-4b1e-a801-14ecc2100395</itemGUID>
             </subItems>
         </m_items>
         <!-- Socks -->
@@ -784,6 +912,26 @@
             <subItems>
                 <!-- Dress_MiniVCut -->
 				<itemGUID>7735f7e9-aec6-4079-b5d3-4d4d8a3f2891</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Skirt_Mini -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Skirt_Mini -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Skirt_Mini -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Skirt_Mini -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+			</subItems>
+            <subItems>
+                <!-- Skirt_Mini -->
+				<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
 			</subItems>
 		</m_items>
         <m_items>
