@@ -12,7 +12,7 @@ module Base
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
-		Weight = 0.2,
+		Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
     }
@@ -29,7 +29,6 @@ module Base
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
-		Weight = 0.3,
         FabricType = Cotton,
         WorldStaticModel= Sweater_FitnessArms_Ground,
     }
@@ -44,7 +43,7 @@ module Base
         Insulation = 0.2,
         WindResistance = 0.2,
 		IconsForTexture = FitnessBra1;FitnessBra2;FitnessBra3;FitnessBra4;FitnessBra5;FitnessBra6,
-		Weight = 0.1,
+		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Underwear_Top_Ground,
 	}
@@ -59,7 +58,7 @@ module Base
         ScratchDefense = 5,
         Insulation = 0.2,
         WindResistance = 0.2,
-		Weight = 0.1,
+		Weight = 0.2,
         FabricType = Cotton,
         WorldStaticModel= Underwear_Bottom_Ground,
     }
@@ -71,7 +70,7 @@ module Base
 		ClothingItem = HighWaist_T,
         BodyLocation = UnderwearBottom,
         Icon = HighWaistT,
-		Weight = 0.01,
+		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Underwear_Bottom_Ground,
 	}
@@ -85,7 +84,7 @@ module Base
         Icon = TightShorts,
         Insulation = 0.25,
         WindResistance = 0.25,
-		Weight = 0.01,
+		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Underwear_Bottom_Ground,
 	}
@@ -96,7 +95,6 @@ module Base
         ClothingItem = Tshirt_CropTopBoob,
         BodyLocation = Tshirt,
         Icon = CropTopBoob,
-        Weight = 0.1,
         BloodLocation = Shirt,
         FabricType = Cotton,
         WorldStaticModel = CropTop_Ground,
@@ -142,7 +140,6 @@ module Base
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -161,7 +158,6 @@ module Base
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -180,7 +176,6 @@ module Base
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -199,7 +194,6 @@ module Base
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -218,7 +212,6 @@ module Base
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -237,7 +230,6 @@ module Base
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -253,7 +245,6 @@ module Base
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
-		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
@@ -269,7 +260,6 @@ module Base
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
-		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
@@ -285,7 +275,6 @@ module Base
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
-		Weight = 0.2,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
@@ -304,7 +293,6 @@ module Base
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -323,7 +311,6 @@ module Base
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_ShortPleated_Ground,
     }
@@ -342,7 +329,6 @@ module Base
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
-		Weight = 0.3,
         FabricType = Cotton,
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
@@ -355,8 +341,8 @@ module Base
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = BellyDress,
-        Weight = 0.2,
         FabricType = Cotton,
+        Weight = 0.5,
         WorldStaticModel = Dress_Long_Ground,
     }
 
@@ -368,7 +354,7 @@ module Base
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = UDress,
-        Weight = 0.2,
+        Weight = 0.5,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
@@ -381,7 +367,7 @@ module Base
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = VDress,
-        Weight = 0.2,
+        Weight = 0.5,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
@@ -394,7 +380,7 @@ module Base
         BodyLocation = Dress,
         BloodLocation = ShortsShort;Shirt,
         Icon = TubeDress,
-        Weight = 0.1,
+        Weight = 0.5,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
@@ -409,7 +395,7 @@ module Base
         Icon = PoloNeckDress,
         Insulation = 0.15,
         WindResistance = 0.1,
-        Weight = 0.1,
+        Weight = 0.5,
         FabricType = Cotton,
         WorldStaticModel = Dress_Long_Ground,
     }
