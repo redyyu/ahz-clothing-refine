@@ -19,6 +19,22 @@ module RCO
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
     }
+
+    item Stockings_Camo {
+        Type = Clothing,
+        DisplayName = Camo Compression Stockings,
+        ClothingItem = Stockings_Camo,
+		BodyLocation = Socks,
+        BloodLocation = LowerLegs;UpperLegs;Shoes,
+        IconsForTexture = CamoStockings1;CamoStockings2;CamoStockings3,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+		Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= Stockings_FitnessStockings_Ground,
+    }
 	
     item Sweater_FitnessArms {
         Type = Clothing,
