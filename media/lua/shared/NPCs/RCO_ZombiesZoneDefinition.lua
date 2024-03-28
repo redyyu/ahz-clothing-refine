@@ -1,5 +1,9 @@
 
-if not ZombiesZoneDefinition.Stripclub then
+if ZombiesZoneDefinition.Stripclub then
+    table.insert(ZombiesZoneDefinition.Stripclub, {name = "StripperBlack", chance=75})
+    table.insert(ZombiesZoneDefinition.Stripclub, {name = "StripperPink", chance=75})
+    table.insert(ZombiesZoneDefinition.Stripclub, {name = "StripperNaked", chance=75})
+else
     ZombiesZoneDefinition.Stripclub = {
         chanceToSpawn = 100,
         StripperBlackM = {
@@ -48,7 +52,9 @@ if not ZombiesZoneDefinition.Stripclub then
     }
 end
 
-if not ZombiesZoneDefinition.Nightclub then
+if ZombiesZoneDefinition.Nightclub then
+    table.insert(ZombiesZoneDefinition.Nightclub, {name = "Hooker", chance=75})
+else
     ZombiesZoneDefinition.Nightclub = {
         chanceToSpawn = 100,
         Hooker = {
@@ -64,6 +70,9 @@ if not ZombiesZoneDefinition.Nightclub then
 end
 
 table.insert(ZombiesZoneDefinition.Default, {name = "Hooker", chance=0.5})
+table.insert(ZombiesZoneDefinition.Default, {name = "StripperBlack", chance=0.05})
+table.insert(ZombiesZoneDefinition.Default, {name = "StripperPink", chance=0.05})
+table.insert(ZombiesZoneDefinition.Default, {name = "StripperNaked", chance=0.05})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtGirl", chance=0.5})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtBiker", chance=0.25})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtParty", chance=0.25})
