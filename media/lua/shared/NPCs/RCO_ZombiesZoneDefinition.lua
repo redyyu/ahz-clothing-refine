@@ -81,9 +81,9 @@ table.insert(ZombiesZoneDefinition.Default, {name = "StripperPink", chance=0.05}
 table.insert(ZombiesZoneDefinition.Default, {name = "StripperNaked", chance=0.05})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtGirl", chance=0.5})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtBiker", chance=0.25})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtParty", chance=0.25})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtSport", chance=0.25})
-table.insert(ZombiesZoneDefinition.Default, {name = "SkirtAmry", chance=0.25})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtParty", chance=0.5})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtSport", chance=1})
+table.insert(ZombiesZoneDefinition.Default, {name = "SkirtAmry", chance=0.5})
 table.insert(ZombiesZoneDefinition.Default, {name = "SkirtFitnessInstructor", chance=0.5})
 
 

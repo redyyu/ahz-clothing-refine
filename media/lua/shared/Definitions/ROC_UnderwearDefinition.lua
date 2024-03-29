@@ -6,7 +6,7 @@ UnderwearDefinition = UnderwearDefinition or {};
 
 -- outfit name
 UnderwearDefinition.Hooker = {
-    chanceToSpawn = 10, -- weighted chance, can exced 100
+    chanceToSpawn = 5, -- weighted chance, can exced 100
     gender = "female",
     bottom = 'RCO.Underpants_HighWaistT',
 }
