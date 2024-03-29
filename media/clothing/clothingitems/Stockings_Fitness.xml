@@ -6,10 +6,10 @@
     <m_Static>false</m_Static>
     <m_AllowRandomTint>false</m_AllowRandomTint>
     <m_AttachBone></m_AttachBone>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking1</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking2</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking3</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking4</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking5</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\fitness_stocking6</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings1</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings2</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings3</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings4</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings5</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\fitness_stockings</m_BaseTextures>
 </clothingItem>

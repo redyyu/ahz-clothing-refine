@@ -58,6 +58,10 @@
 		<guid>c9b798af-3f22-4707-9427-e5a4c7aa3506</guid>
 	</files>
 	<files>
+		<path>media/clothing/clothingItems/Stockings_FitnessTINT.xml</path>
+		<guid>a500c275-e56d-4fb4-bcaf-c107e9462bff</guid>
+	</files>
+	<files>
 		<path>media/clothing/clothingItems/Stockings_Camo.xml</path>
 		<guid>b51ee895-ecc9-4a88-b1c3-eeabaa6616e7</guid>
 	</files>

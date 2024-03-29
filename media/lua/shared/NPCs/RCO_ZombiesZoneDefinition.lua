@@ -58,7 +58,7 @@ else
     ZombiesZoneDefinition.Nightclub = {
         chanceToSpawn = 100,
         HookerM = {
-            name="StripperBlack",
+            name="Hooker",
             toSpawn=3,
             gender="female",
             mandatory="true",

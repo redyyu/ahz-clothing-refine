@@ -67,7 +67,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
             </subItems>
@@ -184,7 +187,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
             </subItems>
@@ -387,7 +393,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
             </subItems>
@@ -497,7 +506,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
             </subItems>
@@ -635,7 +647,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
             </subItems>
@@ -892,7 +907,10 @@
         </m_items>
         <!-- Socks -->
         <m_items>
-            <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            <itemGUID>a500c275-e56d-4fb4-bcaf-c107e9462bff</itemGUID>
+            <subItems>
+                <itemGUID>c9b798af-3f22-4707-9427-e5a4c7aa3506</itemGUID>
+            </subItems>
             <subItems>
                 <itemGUID>b51ee895-ecc9-4a88-b1c3-eeabaa6616e7</itemGUID>
             </subItems>

@@ -10,7 +10,23 @@ module RCO
         ClothingItem = Stockings_Fitness,
 		BodyLocation = Socks,
         BloodLocation = LowerLegs;UpperLegs;Shoes,
-        IconsForTexture = FitnessStockings1;FitnessStockings2;FitnessStockings3;FitnessStockings4;FitnessStockings5;FitnessStockings6,
+        IconsForTexture = FitnessStockings1;FitnessStockings2;FitnessStockings3;FitnessStockings4;FitnessStockings5;FitnessStockings,
+		BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+		Weight = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel= Stockings_FitnessStockings_Ground,
+    }
+
+    item Stockings_FitnessTINT {
+        Type = Clothing,
+        DisplayName = Fitness Compression Stockings,
+        ClothingItem = Stockings_FitnessTINT,
+		BodyLocation = Socks,
+        BloodLocation = LowerLegs;UpperLegs;Shoes,
+        Icon = FitnessStockings,
 		BiteDefense = 10,
         ScratchDefense = 20,
         Insulation = 0.5,
@@ -57,7 +73,7 @@ module RCO
         DisplayCategory = Clothing,		
 		Type = Clothing,
 		DisplayName = Fitness Compression Bra,
-		ClothingItem = Underwear_FitnessBra,
+		ClothingItem = Bra_Fitness,
 		BodyLocation = UnderwearTop,
         ScratchDefense = 5,
         Insulation = 0.2,
@@ -301,7 +317,7 @@ module RCO
 
     item Skirt_ShortPleated_Camo {
         Type = Clothing,
-        DisplayName = Military Short Pleated Skirt,
+        DisplayName = Camo Short Pleated Skirt,
         ClothingItem = Skirt_ShortPleated_Camo,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
@@ -319,7 +335,7 @@ module RCO
 
     item Skirt_ShortPleated_Camo_Tight {
         Type = Clothing,
-        DisplayName = Military Short Pleated Skirt (Tight),
+        DisplayName = Camo Short Pleated Skirt (Tight),
         ClothingItem = Skirt_ShortPleated_Camo_Tight,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
@@ -337,7 +353,7 @@ module RCO
 
     item Skirt_MiniPleated_Camo {
         Type = Clothing,
-        DisplayName = Military Pleated Miniskirt,
+        DisplayName = Camo Pleated Miniskirt,
         ClothingItem = Skirt_MiniPleated_Camo,
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,

@@ -6,7 +6,7 @@
     <m_Static>false</m_Static>
     <m_AllowRandomTint>false</m_AllowRandomTint>
     <m_AttachBone></m_AttachBone>
-    <m_BaseTextures>clothes\Stockings\camo_stocking1</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\camo_stocking2</m_BaseTextures>
-    <m_BaseTextures>clothes\Stockings\camo_stocking3</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\camo_stockings1</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\camo_stockings2</m_BaseTextures>
+    <m_BaseTextures>clothes\Stockings\camo_stockings3</m_BaseTextures>
 </clothingItem>
