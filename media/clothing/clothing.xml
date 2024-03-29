@@ -129,12 +129,16 @@
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
                 <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
             </subItems>
             <subItems>
                 <!-- Shoes_FancyBoots -->
                 <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
             </subItems>
         </m_items>
         <!-- Watch -->
@@ -347,12 +351,16 @@
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
                 <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
             </subItems>
             <subItems>
                 <!-- Shoes_FancyBoots -->
                 <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
             </subItems>
         </m_items>
         <!-- Gloves -->
@@ -553,12 +561,16 @@
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
                 <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
             </subItems>
             <subItems>
                 <!-- Shoes_FancyBoots -->
                 <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
             </subItems>
         </m_items>
         <!-- Watch -->
@@ -709,12 +721,16 @@
                 <itemGUID>fb7e0ff8-73e5-4344-8942-8cc097ebeeb9</itemGUID>
             </subItems>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
                 <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
             </subItems>
             <subItems>
                 <!-- Shoes_FancyBoots -->
                 <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
             </subItems>
         </m_items>
         <!-- Watch -->
@@ -804,12 +820,16 @@
                 <itemGUID>1ed51bf2-67e5-41d9-b50d-92f42483868a</itemGUID>
             </subItems>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
                 <itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
             </subItems>
             <subItems>
                 <!-- Shoes_FancyBoots -->
                 <itemGUID>c72a5755-5aef-4499-ba73-48b6416d0b00</itemGUID>
+            </subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
             </subItems>
         </m_items>
         <!-- Watch -->
@@ -1682,7 +1702,7 @@
             <!-- Shoes_Random -->
 			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
             <subItems>
-                <!-- Shoes_BootsDefault -->
+                <!-- Shoes_BootsChromatic -->
 				<itemGUID>1946aac7-8d86-4a78-ab4c-3a0dc32d5e7b</itemGUID>
 			</subItems>
             <subItems>
@@ -1693,6 +1713,10 @@
                 <!-- Fancy Shoes -->
 				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
 			</subItems>
+            <subItems>
+                <!-- Shoes_KneeHighHeels -->
+                <itemGUID>89b82b56-f2ca-487f-b17a-11cc82b37287</itemGUID>
+            </subItems>
 		</m_items>
 		<m_items>
             <!-- Hat_Beret -->

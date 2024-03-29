@@ -1,7 +1,8 @@
 ItemName_EN = {
   
-  ItemName_Base.Shoes_BootsDefault = "Boots"
+  ItemName_Base.Shoes_BootsChromatic = "Chromatic Boots"
   ItemName_Base.Shoes_FancyBoots = "Fancy Boots"
+  ItemName_Base.Shoes_KneeHighHeels = "Knee High Heels Boots"
 
   ItemName_Base.Shoes_BlackBoots = "Black Boots"
   ItemName_Base.Shoes_BlueTrainers = "Blue Sneakers"

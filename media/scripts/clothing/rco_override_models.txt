@@ -20,6 +20,10 @@ module Base
 		mesh = WorldItems/clothing/FancyBoots_ground,	
 	}
 
+	model KneeHighHeels_Ground {
+		mesh = WorldItems/clothing/KneeHighHeels_Ground,
+	}
+
 	model Sneakers_Ground {
 		mesh = WorldItems/clothing/Sneakers_ground,	
 	}

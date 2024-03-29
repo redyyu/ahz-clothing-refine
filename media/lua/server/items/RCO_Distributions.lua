@@ -308,7 +308,7 @@ insertDistribution(ProceduralDistributions.list, skirtsDistributionsMap)
 
 
 local shoesDistributionsMap = {
-    ["Shoes_BootsDefault"] = {
+    ["Shoes_BootsChromatic"] = {
         BandMerchShelves = 3,
         BandPracticeClothing = 3,
         ClosetShelfGeneric = 0.5,
@@ -328,6 +328,17 @@ local shoesDistributionsMap = {
         CrateRandomJunk = 0.05,
         FactoryLockers = 2.5,
     },
+    ["Shoes_KneeHighHeels"] = {
+        BandMerchShelves = 3,
+        BandPracticeClothing = 3,
+        ClosetShelfGeneric = 0.5,
+        ClothingStorageFootwear = 3,
+        ClothingStoresBoots = 5,
+        CrateFootwearRandom = 5,
+        CrateRandomJunk = 0.05,
+        FactoryLockers = 2.5,
+    },
+    
 }
 
 insertDistribution(ProceduralDistributions.list, shoesDistributionsMap)
@@ -337,7 +348,10 @@ local vehicleDistributionsMap = {
     ["Shoes_FancyBoots"] = {
         ClothingTruckBed = 0.5,
     },
-    ["Shoes_BootsDefault"] = {
+    ["Shoes_BootsChromatic"] = {
+        ClothingTruckBed = 0.5,
+    },
+    ["Shoes_KneeHighHeels"] = {
         ClothingTruckBed = 0.5,
     },
 }
