@@ -26,7 +26,7 @@
     <!-- <m_MasksFolder></m_MasksFolder>
     <m_UnderlayMasksFolder></m_UnderlayMasksFolder> -->
     <m_Masks>8</m_Masks>
-    <m_Masks>10</m_Masks>    
+    <m_Masks>10</m_Masks>
     <textureChoices>clothes/Shoes/shoes_white</textureChoices>
     <textureChoices>clothes/Shoes/shoes_black</textureChoices>
     <textureChoices>clothes/Shoes/shoes_brown</textureChoices>
