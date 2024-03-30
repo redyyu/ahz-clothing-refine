@@ -98,11 +98,12 @@ table.insert(ZombiesZoneDefinition.FancyHotel, {name = "SkirtParty", chance=5})
 table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtParty", chance=5})
 
 table.insert(ZombiesZoneDefinition.Army, {name = "SkirtArmy", chance=20})
-table.insert(ZombiesZoneDefinition.SecretBase, {name = "SkirtArmy", chance=15})
+table.insert(ZombiesZoneDefinition.SecretBase, {name = "SkirtArmy", chance=1})
 table.insert(ZombiesZoneDefinition.CountryClub, {name = "SkirtArmy", chance=5})
 table.insert(ZombiesZoneDefinition.Beach, {name = "SkirtArmy", chance=5})
 
 table.insert(ZombiesZoneDefinition.Golf, {name = "Hooker", chance=15})
+table.insert(ZombiesZoneDefinition.CountryClub, {name = "Hooker", chance=5})
 table.insert(ZombiesZoneDefinition.HotelRich, {name = "Hooker", chance=15})
 table.insert(ZombiesZoneDefinition.FancyHotel, {name = "Hooker", chance=15})
 table.insert(ZombiesZoneDefinition.Bar, {name = "Hooker", chance=25})
