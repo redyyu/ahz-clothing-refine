@@ -1,360 +1,93 @@
 require 'Items/ProceduralDistributions'
 
-local function insertDistribution(list, distributionsMap)
-    for item_name, places in pairs(distributionsMap) do
-        for place_name, weight in pairs(places) do
-            local dist_to = list[place_name]
-            if dist_to then
-                if dist_to.items then
-                    dist_to = dist_to.items
+
+local function insertDistributions(distributions_items, distMap)
+    for idx, item_key in ipairs(distributions_items) do
+        if type(item_key) == "string" then
+            for k, v in pairs(distMap) do
+                if item_key == k then
+                    local weight = distributions_items[idx + 1]
+                    for _, new_item_key in ipairs(v) do
+                        table.insert(distributions_items, new_item_key)
+                        table.insert(distributions_items, weight)
+                    end 
                 end
-                table.insert(dist_to, item_name)
-                table.insert(dist_to, weight)
             end
         end
     end
 end
 
 
-local skirtsDistributionsMap = {
-    ["RCO.Stockings_Fitness"] = {
-        ClothingStoresSocks = 10,
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-    },
-    ["RCO.Stockings_FitnessTINT"] = {
-        ClothingStoresSocks = 10,
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-    },
-    ["RCO.Sweater_FitnessArms"] = {
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-    },
-    ["RCO.Bra_Fitness"] = {
-        ClothingStoresUnderwearWoman = 10,
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-    },
-    ["RCO.Underpants_Fitness"] = {
-        ClothingStoresUnderwearWoman = 10,
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-    },
-    ["RCO.Underpants_HighWaistT"] = {
-        LingerieStoreOutfits = 3,
-        ClothingStoresUnderwearWoman = 3,
-        CrateClothesRandom = 1,
-        LaundryLoad7 = 3, 
-        StripClubDressers = 15,
-    },
-    ["RCO.Underpants_TightShorts"] = {
-        LingerieStoreOutfits = 3,
-        ClothingStoresUnderwearWoman = 3,
-        CrateClothesRandom = 1,
-        LaundryLoad7 = 3, 
-        StripClubDressers = 15,
-    },
-    ["RCO.Tshirt_LongSleeveTop"] = {
-        ClothingStoresWoman = 4,
-        BedroomDresser = 1,
-        DresserGeneric = 2,
-        WardrobeWoman = 4, 
-        CrateClothesRandom = 4,
-    },
-    ["RCO.Tshirt_LongSleeveTopCut"] = {
-        ClothingStoresWoman = 2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 1,
-        WardrobeWoman = 2, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_ShortPleated"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_ShortPleatedTINT"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_ShortPleatedPlaidTINT"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_MiniPleated"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_MiniPleatedTINT"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_MiniPleatedPlaidTINT"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_ShortPleated_Camo"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Skirt_MiniPleated_Camo"] = {
-        ClothingStoresSummer = 4,
-        LingerieStoreOutfits = 1,
-        ClothingStorageLegwear = 0.5,
-        ClothingStoresDress = 2,
-        ClothingStoresWoman = 2,
-        SchoolLockers = 0.2,
-        BedroomDresser = 0.5,
-        DresserGeneric = 0.5,
-        ClosetShelfGeneric = 0.2,
-        GymLockers = 0.5,
-        GymLaundry = 2,
-        LaundryHospital = 10,
-        LaundryLoad1 = 10,
-        LaundryLoad2 = 10,
-        LaundryLoad3 = 10,
-        LaundryLoad4 = 10,
-        LaundryLoad5 = 10,
-        LaundryLoad6 = 10,
-        LaundryLoad7 = 10,
-        LaundryLoad8 = 10,
-        Locker = 0.1,
-        StripClubDressers = 15,
-        WardrobeWoman = 6, 
-        CrateClothesRandom = 2,
-    },
-    ["RCO.Stockings_Camo"] = {
-        ClothingStoresSocks = 10,
-        ClothingStoresSport = 10,
-        CrateClothesRandom = 1,
-        GymLockers = 10,
-        GymLaundry = 10,
-        LaundryLoad6 = 5,
-        LaundryHospital = 10,
-    },
-}
-
-
-insertDistribution(ProceduralDistributions.list, skirtsDistributionsMap)
-
-
-local shoesDistributionsMap = {
-    ["Shoes_BootsChromatic"] = {
-        BandMerchShelves = 3,
-        BandPracticeClothing = 3,
-        ClosetShelfGeneric = 0.5,
-        ClothingStorageFootwear = 3,
-        ClothingStoresBoots = 5,
-        CrateFootwearRandom = 5,
-        CrateRandomJunk = 0.05,
-        FactoryLockers = 2.5,
-    },
-    ["Shoes_FancyBoots"] = {
-        BandMerchShelves = 3,
-        BandPracticeClothing = 3,
-        ClosetShelfGeneric = 0.5,
-        ClothingStorageFootwear = 3,
-        ClothingStoresBoots = 5,
-        CrateFootwearRandom = 5,
-        CrateRandomJunk = 0.05,
-        FactoryLockers = 2.5,
-    },
-    ["Shoes_KneeHighHeels"] = {
-        BandMerchShelves = 3,
-        BandPracticeClothing = 3,
-        ClosetShelfGeneric = 0.5,
-        ClothingStorageFootwear = 3,
-        ClothingStoresBoots = 5,
-        CrateFootwearRandom = 5,
-        CrateRandomJunk = 0.05,
-        FactoryLockers = 2.5,
+local distributionsMap = {
+    ["Tshirt_Sport"] = {
+        "RCO.Stockings_Fitness",
+        "RCO.Stockings_FitnessTINT",
+        "RCO.Bra_Fitness",
+        "RCO.Underpants_Fitness",
+        "RCO.Stockings_Camo",
     },
     
+    ["Shorts_LongSport"] = {
+        "RCO.Sweater_FitnessArms",
+        "RCO.Tshirt_LongSleeveTop",
+        "RCO.Tshirt_LongSleeveTopCut",
+        "RCO.Tshirt_CropTopBoob",
+        "RCO.Skirt_MiniPleated_Camo",
+        "Skirt_Mini",
+        "RCO.Skirt_MiniPleated",
+        "RCO.Skirt_MiniPleatedTINT",
+        "RCO.Skirt_MiniPleatedPlaidTINT",
+    },
+    ["FrillyUnderpants_Black"] = {
+        "RCO.Underpants_Fitness",
+        "RCO.Underpants_HighWaistT",
+        "RCO.Underpants_TightShorts",
+    },
+    ["Skirt_Knees"] = {
+        "RCO.Skirt_ShortPleated",
+        "RCO.Skirt_ShortPleatedTINT",
+        "RCO.Skirt_ShortPleatedPlaidTINT",
+        "RCO.Skirt_ShortPleated_Camo",
+    },
+    ["Skirt_Short"] = {
+        "Skirt_Mini",
+        "RCO.Skirt_MiniPleated",
+        "RCO.Skirt_MiniPleatedTINT",
+        "RCO.Skirt_MiniPleatedPlaidTINT",
+        "RCO.Skirt_MiniPleated_Camo",
+    },
+    
+    ["Tshirt_CamoUrban"] = {
+        "RCO.Skirt_ShortPleated_Camo",
+        "RCO.Skirt_MiniPleated_Camo",
+        "RCO.Stockings_Camo",
+    },
+    
+    ["HoodieDOWN_WhiteTINT"] = {
+        "Hoodie_Cropped_Down"
+    },
+
+    ["Dress_SmallStrapless"] = {
+        "Dress_MiniBellyCut",
+        "Dress_MiniUCut",
+        "Dress_MiniVCut",
+        "Dress_MiniTube",
+        "Dress_MiniTPoloNeck",
+    },
+
+    ["Shoes_BlackBoots"] = {
+        "Shoes_BootsChromatic"
+    },
+
+    ["Shoes_RidingBoots"] = {
+        "Shoes_FancyBoots",
+        "Shoes_KneeHighHeels",
+    },
+
 }
 
-insertDistribution(ProceduralDistributions.list, shoesDistributionsMap)
+for k, v in pairs(ProceduralDistributions.list) do
+    insertDistributions(v.items, distributionsMap)
+end
 
-
-local vehicleDistributionsMap = {
-    ["Shoes_FancyBoots"] = {
-        ClothingTruckBed = 0.5,
-    },
-    ["Shoes_BootsChromatic"] = {
-        ClothingTruckBed = 0.5,
-    },
-    ["Shoes_KneeHighHeels"] = {
-        ClothingTruckBed = 0.5,
-    },
-}
-
-
-insertDistribution(VehicleDistributions, vehicleDistributionsMap)
+insertDistributions(VehicleDistributions.ClothingTruckBed, distributionsMap)
