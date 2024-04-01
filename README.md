@@ -20,7 +20,9 @@ still don't clear how the Masks work.
 `m_UnderlayMasksFolder` can cover (show) the part by the mask image,
 such as make instep, like the `Masks/heels`
 
-DON't know what is the `<m_MasksFolder></m_MasksFolder>` for, changed and nothing happen.
+DON't know what is the `<m_MasksFolder></m_MasksFolder>` use for.
+it seems will effect texture.
+see `BlackBoots` texture change a little bit.
 
 
 for the masks, `Jacket/Masks` is patch for Vanilla mask bugs.
