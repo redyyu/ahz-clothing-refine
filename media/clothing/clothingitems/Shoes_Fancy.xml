@@ -21,12 +21,11 @@
          only mask 11 will not mask any body part, but it will effect other clothes with model.
          etc. `Jacket` or `Skirt`... that why need put `Shoes` before others in BodyLocation.
          that's hacking way, might cause other problem don't know yet.
-        <m_Masks>11</m_Masks>
-    <m_UnderlayMasksFolder>media/textures/Clothes/Shoes/Masks/fancy_shoes</m_UnderlayMasksFolder> -->
-    <!-- <m_MasksFolder></m_MasksFolder>
-    <m_UnderlayMasksFolder></m_UnderlayMasksFolder> -->
+    -->
     <m_Masks>8</m_Masks>
     <m_Masks>10</m_Masks>
+    <m_MasksFolder></m_MasksFolder>
+    <m_UnderlayMasksFolder>media/textures/Clothes/Masks/shoes</m_UnderlayMasksFolder>
     <textureChoices>clothes/Shoes/shoes_white</textureChoices>
     <textureChoices>clothes/Shoes/shoes_black</textureChoices>
     <textureChoices>clothes/Shoes/shoes_brown</textureChoices>
