@@ -58,7 +58,7 @@ function Recipe.OnCreate.CopyFirstClothingVisual(items, result, player)
             if clothing:getVisual():getHole(p) > 0 then
                 result:getVisual():setHole(p)
             end
-            if clothing:getVisual():getBlood(p) then
+            if clothing:getVisual():getBlood(p) > 0 then
                 result:getVisual():setBlood(p, clothing:getVisual():getBlood(p))
             end
         end
