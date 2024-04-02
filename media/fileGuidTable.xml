@@ -148,6 +148,24 @@
         <guid>89b82b56-f2ca-487f-b17a-11cc82b37287</guid>
     </files>
 
+    <!-- Military Poncho -->
+    <files>
+        <path>media/clothing/clothingItems/MPonchoUP.xml</path>
+        <guid>ecb9d9ec-82e4-4de8-9c33-eb2b12cc536c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MPonchoDOWN.xml</path>
+        <guid>a14eb4f9-3d8e-4556-9afe-f9b021aeded3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MPonchoShoulderUP.xml</path>
+        <guid>c7b52377-6d1a-429d-bc89-a7fa61664cb9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/MPonchoShoulderDOWN.xml</path>
+        <guid>fbc328bf-9161-4d3a-a443-a44d60de94a8</guid>
+    </files>
+
 
     <!-- Vanilla Defaults -->
     <files>

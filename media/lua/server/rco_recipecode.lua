@@ -10,7 +10,7 @@ function Recipe.OnTest.isIntactClothing(item)
 end
 
 
-function Recipe.OnCreate.PaintMPoncho(items, resultItem, player)
+function Recipe.OnCreate.PaintMPoncho(items, result, player)
     local texture_id = 0
     for i=0, items:size()-1 do
         local item = items:get(i)
@@ -21,8 +21,8 @@ function Recipe.OnCreate.PaintMPoncho(items, resultItem, player)
         end
     end
 
-    resultItem:getVisual():setTextureChoice(texture_id)
-    resultItem:synchWithVisual()
+    result:getVisual():setTextureChoice(texture_id)
+    result:synchWithVisual()
 end
 
 
@@ -63,7 +63,7 @@ function Recipe.OnCreate.CopyFirstClothingVisual(items, result, player)
             end
         end
     end
-    
+
     result:getVisual():setTint(tint)
     result:synchWithVisual()
 

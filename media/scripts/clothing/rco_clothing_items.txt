@@ -533,14 +533,14 @@ module RCO
 
 /** Poncho **/
 
-    item MPoncho {
+    item MPonchoUP {
         Type = Clothing,
         DisplayName = Military Poncho,
         ClothingItem = MPonchoUP,
-        BodyLocation = Scarf,
         IconsForTexture = MPonchoRaw;MPonchoGreen;MPonchoBlack,
+        BodyLocation = Scarf,
         BloodLocation = LongJacket;ShortsShort;FullHelmet,
-        ClothingItemExtra = MPonchoDOWN;MPonchoShoulder;MPonchoShoulderDOWN,
+        ClothingItemExtra = MPonchoDOWN;MPonchoShoulderUP;MPonchoShoulderDOWN,
         ClothingItemExtraOption = DownHoodie;UpHoodieS;DownHoodieS,
         clothingExtraSubmenu = UpHoodie,
         BiteDefense = 40,
@@ -556,10 +556,10 @@ module RCO
         Type = Clothing,
         DisplayName = Military Poncho,
         ClothingItem = MPonchoDOWN,
-        BodyLocation = Scarf,
         IconsForTexture = MPonchoRaw;MPonchoGreen;MPonchoBlack,
-        BloodLocation = LongJacket;ShortsShort,
-        ClothingItemExtra = MPonchoUP;MPonchoShoulder;MPonchoShoulderDOWN,
+        BodyLocation = Scarf,
+        BloodLocation = LongJacket;ShortsShort;FullHelmet,
+        ClothingItemExtra = MPonchoUP;MPonchoShoulderUP;MPonchoShoulderDOWN,
         ClothingItemExtraOption = UpHoodie;UpHoodieS;DownHoodieS,
         clothingExtraSubmenu = DownHoodie,
         BiteDefense = 40,
@@ -568,17 +568,16 @@ module RCO
         Insulation = 0.15,
         WindResistance = 0.8,
         WaterResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = MPoncho_Ground,
     }
    
-    item MPonchoShoulder {
+    item MPonchoShoulderUP {
         Type = Clothing,
         DisplayName = Military Poncho,
-        ClothingItem = MPonchoShoulder,
-        BodyLocation = Scarf,
+        ClothingItem = MPonchoShoulderUP,
         IconsForTexture = MPonchoRaw;MPonchoGreen;MPonchoBlack,
-        BloodLocation = Neck;Head;UpperBody;UpperArms,
+        BodyLocation = Scarf,
+        BloodLocation = LongJacket;ShortsShort;FullHelmet,
         ClothingItemExtra = MPonchoDOWN;MPonchoUP;MPonchoShoulderDOWN,
         ClothingItemExtraOption = DownHoodie;UpHoodie;DownHoodieS,
         clothingExtraSubmenu = UpHoodieS,
@@ -588,7 +587,6 @@ module RCO
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = MPoncho_Ground,
     }
 
@@ -596,10 +594,10 @@ module RCO
         Type = Clothing,
         DisplayName = Military Poncho,
         ClothingItem = MPonchoShoulderDOWN,
-        BodyLocation = Scarf,
         IconsForTexture = MPonchoRaw;MPonchoGreen;MPonchoBlack,
-        BloodLocation = Neck;UpperBody;UpperArms,
-        ClothingItemExtra = MPonchoDOWN;MPonchoUP;MPonchoShoulder,
+        BodyLocation = Scarf,
+        BloodLocation = LongJacket;ShortsShort;FullHelmet,
+        ClothingItemExtra = MPonchoDOWN;MPonchoUP;MPonchoShoulderUP,
         ClothingItemExtraOption = DownHoodie;UpHoodie;UpHoodieS,
         clothingExtraSubmenu = DownHoodieS,
         BiteDefense = 40,
@@ -608,7 +606,6 @@ module RCO
         Insulation = 0.1,
         WindResistance = 0.75,
         WaterResistance = 1.0,
-        FabricType = Cotton,
         WorldStaticModel = MPoncho_Ground,
     }
 

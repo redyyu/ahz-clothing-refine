@@ -30,7 +30,7 @@ module RCO
 
         OnCreate: Recipe.OnCreate.PaintMPoncho,
         
-        Result: MPoncho,
+        Result: MPonchoUP,
         Sound: ClothesRipping,
         Time: 500.0,
         Prop1: Source=1,
@@ -41,13 +41,13 @@ module RCO
     }
 
     recipe Paint Military Poncho Green {
-        MPoncho,
+        MPonchoUP/MPonchoDOWN/MPonchoShoulderUP/MPonchoShoulderDOWN,
         keep Paintbrush,
         PaintGreen=2,
         
         OnCreate: Recipe.OnCreate.PaintMPoncho,
         
-        Result: MPoncho,
+        Result: MPonchoUP,
         Sound: ClothesRipping,
         Time: 500.0,
         Prop1: Source=1,
@@ -58,13 +58,13 @@ module RCO
     }
 
     recipe Paint Military Poncho Black {
-        MPoncho,
+        MPonchoUP/MPonchoDOWN/MPonchoShoulderUP/MPonchoShoulderDOWN,
         keep Paintbrush,
         PaintBlack=2,
 
         OnCreate: Recipe.OnCreate.PaintMPoncho,
         
-        Result: MPoncho,
+        Result: MPonchoUP,
         Sound: ClothesRipping,
         Time: 500.0,
         Prop1: Source=1,
