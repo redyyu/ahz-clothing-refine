@@ -2,10 +2,10 @@ ContextMenu_EN = {
   ContextMenu_Loosen = "Loosen"
   ContextMenu_Tighten = "Tighten"
 
-  ContextMenu_OpenHoodUp = "Open, Hood Up"
-	ContextMenu_OpenHoodDown = "Open, Hood Down"
-	ContextMenu_CloseHoodUp = "Close, Hood Up"
-	ContextMenu_CloseHoodDown = "Close, Hood Down"
+  ContextMenu_UpHoodieOpen = "Open, Hood Up"
+	ContextMenu_DownHoodieOpen = "Open, Hood Down"
+	ContextMenu_UpHoodieClosed = "Close, Hood Up"
+	ContextMenu_DownHoodieClosed = "Close, Hood Down"
   
   ContextMenu_UpHoodieS = "Over Shoulder Hood Up"
   ContextMenu_DownHoodieS = "Over Shoulder Hood Down"
