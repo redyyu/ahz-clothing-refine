@@ -26,6 +26,9 @@
     <m_Masks>10</m_Masks>
     <!-- <m_MasksFolder></m_MasksFolder> -->
     <m_UnderlayMasksFolder>media/textures/Clothes/Shoes/Masks</m_UnderlayMasksFolder>
+    
+    <!-- <m_Masks>11</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/Clothes/Shoes/Masks/heels</m_UnderlayMasksFolder> -->
     <textureChoices>clothes/Shoes/shoes_white</textureChoices>
     <textureChoices>clothes/Shoes/shoes_black</textureChoices>
     <textureChoices>clothes/Shoes/shoes_brown</textureChoices>

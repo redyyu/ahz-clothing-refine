@@ -6,7 +6,7 @@ Add modified clothing outfits.
 Most items in this mod is combine form other MODs.
 I may did some Organize, Re-Texture, Re-Modeling, Re-Balance.
 
-Credit to: `ahz clothing`, `Ellie's Clothing Shop`, `Boots Expanded`, `Ponchos`.
+Credit to: `ahz clothing`, `Ellie's Clothing Shop`, `Boots Expanded`, `MilPoncho`.
 
 
 
@@ -50,8 +50,28 @@ the original `Head` mask is too much extands to covered right feet,
 seems is not did on purpose. because original shoes is big and fat, 
 but custom shoes will see the problem. fix it by modified the mask.
 
-if with instep mask (like the feet part in `Shoes/masks/heels`) on some clothingItem (bodylocation before `Shoes`).
-the instep will show. but it will cause many other problems. such as masks 8 and 10 will show instep anyway.
 
-anyway, if move `Shoes` before others, 
-that's most easy way to mask shoes but show instep and mask other part of feets.
+### Ovrride BodyLocations.lua
+
+if put shoes before many others in BodyLocations.lua, many texture problem with masks are solved.
+and can also make some shoes to show instep part with `m_UnderlayMasksFolder`, even masks 8 and 10 are masked.
+
+Move the bodylocaion `Shoes` before `jacket`, `Skirt`, `Legs`... and many more,
+can use the `m_UnderlayMasksFolder` on shoes to make instep mask (like the feet part in `Shoes/masks/heels`) 
+the instep will show, even masks 8 and 10 will show instep anyway.
+
+The problem is not showing up in Vanilla, because they don't have Model for Shoes.
+(even it does, only have simple model, no need mask body part upper than shoes).
+But when use Modeled Shoes, specially with `m_UnderlayMasksFolder`. those problem will comesup.
+
+such as, Shoes mask failure when wearing clothing use `Hoodie`, `Jakcet_Army` Masks.
+Also fix others, such as:
+1. `Winter Coat`'s Head side texture prolbem when hoodie up,
+2. `Poncho`'s bottom side texture broken up when hooie down.
+3. ... definitely have more problems.
+
+I am try to not override BodyLocations.lua, but this is most easy way to fix other prolbems,
+not just for the *instep* for heels.
+
+override BodyLocations.lua can cause conflict with other MODs which is override it too.
+such as `Spongie Clothing Hide Fix`.
