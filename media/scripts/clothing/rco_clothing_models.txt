@@ -1,8 +1,10 @@
 module RCO
 {
-	imports {
+    imports {
         Base,
     }
+
+/** Skirt **/
 
     model Skirt_ShortPleated_Ground {
         mesh = WorldItems/Clothing/Skirt_ShortPleated_Ground,
@@ -12,6 +14,8 @@ module RCO
         mesh = WorldItems/Clothing/Skirt_MiniPleated_Ground,
         scale = 1
     }
+
+/** Underware **/
     model Stockings_FitnessStockings_Ground {
         mesh = WorldItems/Clothing/Stockings_FitnessStockings_Ground,
         scale = 1
@@ -30,42 +34,50 @@ module RCO
     }
     
 
-    /** Shoes **/
+/** Shoes **/
     
     model Boots_Ground {  /** override vanilla **/
-		mesh = WorldItems/clothing/Boots_ground,
-	}
+        mesh = WorldItems/clothing/Boots_ground,
+    }
 
-	model RiddingBoots_Ground {
-		mesh = WorldItems/clothing/RiddingBoots_ground,	
-	}
+    model RiddingBoots_Ground {
+        mesh = WorldItems/clothing/RiddingBoots_ground,
+    }
 
-	model MilitaryBoots_Ground
-	{
-		mesh = WorldItems/clothing/MilitaryBoots_ground,	
-	}
+    model MilitaryBoots_Ground
+    {
+        mesh = WorldItems/clothing/MilitaryBoots_ground,
+    }
 
-	model FancyBoots_Ground {
-		mesh = WorldItems/clothing/FancyBoots_ground,	
-	}
+    model FancyBoots_Ground {
+        mesh = WorldItems/clothing/FancyBoots_ground,
+    }
 
-	model Sneakers_Ground {
-		mesh = WorldItems/clothing/Sneakers_ground,	
-	}
+    model Sneakers_Ground {
+        mesh = WorldItems/clothing/Sneakers_ground,
+    }
 
-	model Wellies_Ground {
-		mesh = WorldItems/clothing/Wellies_ground,	
-	}
+    model Wellies_Ground {
+        mesh = WorldItems/clothing/Wellies_ground,
+    }
 
-	model ShoesFancy_Ground {
-		mesh = WorldItems/clothing/FancyShoes_ground,	
-	}
+    model ShoesFancy_Ground {
+        mesh = WorldItems/clothing/FancyShoes_ground,
+    }
 
-	model ShoesStrapped_Ground {
-		mesh = WorldItems/clothing/Strapped_ground,	
-	}
+    model ShoesStrapped_Ground {
+        mesh = WorldItems/clothing/Strapped_ground,
+    }
 
-	model Shoes_Ground {
-		mesh = WorldItems/clothing/Shoes_ground,	
-	}
+    model Shoes_Ground {
+        mesh = WorldItems/clothing/Shoes_ground,
+    }
+
+
+/** Poncho **/
+
+    model MPoncho_Ground {
+        mesh = WorldItems/Clothing/MPoncho_Ground,
+        scale = 0.3000,
+    }
 }

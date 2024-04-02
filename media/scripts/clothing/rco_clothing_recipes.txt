@@ -1,0 +1,77 @@
+module RCO
+{
+    imports {
+        Base,
+    }
+
+    recipe Make Half-Cut Hoodie {
+        HoodieDOWN_WhiteTINT/HoodieUP_WhiteTINT,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.KeepClothingVisual,
+
+        Result: MPoncho,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Survivalist,
+      	SkillRequired: Tailoring=6,
+    }
+
+    recipe Make Military Poncho {
+        Tarp=2,
+        keep [Recipe.GetItemTypes.SharpKnife]/Scissors,
+        keep Needle,
+        Thread=5,
+
+        OnCreate: Recipe.OnCreate.PaintMPoncho,
+        
+        Result: MPoncho,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Survivalist,
+      	SkillRequired: Tailoring=6,
+    }
+
+    recipe Paint Military Poncho Green {
+        MPoncho,
+        keep Paintbrush,
+        PaintGreen,
+        
+        OnCreate: Recipe.OnCreate.PaintMPoncho,
+        
+        Result: MPoncho,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Survivalist,
+      	SkillRequired: Tailoring=6,
+    }
+
+    recipe Paint Military Poncho Black {
+        MPoncho,
+        keep Paintbrush,
+        PaintBlack,
+
+        OnCreate: Recipe.OnCreate.PaintMPoncho,
+        
+        Result: MPoncho,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Survivalist,
+      	SkillRequired: Tailoring=6,
+    }
+
+}

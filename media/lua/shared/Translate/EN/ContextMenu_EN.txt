@@ -6,4 +6,7 @@ ContextMenu_EN = {
 	ContextMenu_OpenHoodDown = "Open, Hood Down"
 	ContextMenu_CloseHoodUp = "Close, Hood Up"
 	ContextMenu_CloseHoodDown = "Close, Hood Down"
+  
+  ContextMenu_UpHoodieS = "Over Shoulder Hood Up"
+  ContextMenu_DownHoodieS = "Over Shoulder Hood Down"
 }

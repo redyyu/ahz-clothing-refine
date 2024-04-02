@@ -868,10 +868,10 @@
             <itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
         </m_items>
         <m_items>
-            <!-- Hoodie_Cropped_DownOpen -->
+            <!-- Hoodie_CroppedDOWNOpen -->
             <itemGUID>b4d9f161-fdc7-4feb-86c8-8cf4c9d35c8c</itemGUID>
             <subItems>
-                <!-- Hoodie_Cropped_UpOpen -->
+                <!-- Hoodie_CroppedUPOpen -->
                 <itemGUID>7943a44d-d9ca-4002-aec0-fd6aaa002bb3</itemGUID>
             </subItems>
         </m_items>

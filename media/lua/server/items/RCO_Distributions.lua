@@ -64,7 +64,7 @@ local distributionsMap = {
     },
     
     ["HoodieDOWN_WhiteTINT"] = {
-        "Hoodie_Cropped_Down"
+        "Hoodie_CroppedDOWN"
     },
 
     ["Dress_SmallStrapless"] = {

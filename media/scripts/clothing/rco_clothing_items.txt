@@ -4,6 +4,9 @@ module RCO
         Base,
     }
 
+
+/** Underwear **/
+
     item Stockings_Fitness {
         Type = Clothing,
         DisplayName = Fitness Compression Stockings,
@@ -50,23 +53,6 @@ module RCO
 		Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
-    }
-	
-    item Sweater_FitnessArms {
-        Type = Clothing,
-        DisplayName = Fitness Compression Sleeves,
-        ClothingItem = Sweater_FitnessArms,
-        BodyLocation = Sweater,
-        BloodLocation = Jacket,
-		IconsForTexture = FitnessArms1;FitnessArms2;FitnessArms3;FitnessArms4;FitnessArms5;FitnessArms6,
-        NeckProtectionModifier = 0.2,
-        BiteDefense = 10,
-        ScratchDefense = 20,
-        Insulation = 0.5,
-        WindResistance = 0.5,
-        Weight = 0.5,
-        FabricType = Cotton,
-        WorldStaticModel= Sweater_FitnessArms_Ground,
     }
 	
 	item Bra_Fitness {
@@ -124,7 +110,30 @@ module RCO
         FabricType = Cotton,
 		WorldStaticModel = Underwear_Bottom_Ground,
 	}
-	
+
+
+/** Sweater **/
+
+    item Sweater_FitnessArms {
+        Type = Clothing,
+        DisplayName = Fitness Compression Sleeves,
+        ClothingItem = Sweater_FitnessArms,
+        BodyLocation = Sweater,
+        BloodLocation = Jacket,
+		IconsForTexture = FitnessArms1;FitnessArms2;FitnessArms3;FitnessArms4;FitnessArms5;FitnessArms6,
+        NeckProtectionModifier = 0.2,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel= Sweater_FitnessArms_Ground,
+    }
+
+
+/** Shirt **/
+
     item Tshirt_CropTopBoob {
         Type = Clothing,
         DisplayName = Crop Top Short,
@@ -161,6 +170,9 @@ module RCO
        FabricType = Cotton,
        WorldStaticModel = Sweater_FitnessArms_Ground,
    	}
+
+
+/** Skirt **/
 
     item Skirt_ShortPleated {
         Type = Clothing,
@@ -369,6 +381,9 @@ module RCO
 		WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
+
+/** Dress **/
+
     item Dress_MiniBellyCut {
         DisplayCategory = Clothing,
         Type = Clothing,
@@ -436,12 +451,15 @@ module RCO
         WorldStaticModel = Dress_Long_Ground,
     }
 
-    item Hoodie_Cropped_Down {
+
+/** Hoodie **/
+
+    item Hoodie_CroppedDOWN {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Half-CutHoodie,
-        ClothingItem = Hoodie_Cropped_Down,
-        ClothingItemExtra = Hoodie_Cropped_Up;Hoodie_Cropped_DownOpen;Hoodie_Cropped_UpOpen,
+        ClothingItem = Hoodie_CroppedDOWN,
+        ClothingItemExtra = Hoodie_CroppedUP;Hoodie_CroppedDOWNOpen;Hoodie_CroppedUPOpen,
         ClothingItemExtraOption = CloseHoodUp;OpenHoodDown;OpenHoodUp,
         clothingExtraSubmenu = DownHoodie,
         BodyLocation = Sweater,
@@ -455,12 +473,12 @@ module RCO
         WorldStaticModel = Hoodie_Ground,
     }
 
-    item Hoodie_Cropped_Up {
+    item Hoodie_CroppedUP {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Half-Cut Hoodie,
-        ClothingItem = Hoodie_Cropped_Up,
-        ClothingItemExtra = Hoodie_Cropped_Down;Hoodie_Cropped_DownOpen;Hoodie_Cropped_UpOpen,
+        ClothingItem = Hoodie_CroppedUP,
+        ClothingItemExtra = Hoodie_CroppedDOWN;Hoodie_CroppedDOWNOpen;Hoodie_CroppedUPOpen,
         ClothingItemExtraOption = CloseHoodDown;OpenHoodDown;OpenHoodUp,
         clothingExtraSubmenu = UpHoodie,
         BodyLocation = Sweater,
@@ -474,12 +492,12 @@ module RCO
         WorldStaticModel = Hoodie_Ground,
     }
 
-    item Hoodie_Cropped_DownOpen {
+    item Hoodie_CroppedDOWNOpen {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Half-Cut Hoodie,
-        ClothingItem = Hoodie_Cropped_DownOpen,
-        ClothingItemExtra = Hoodie_Cropped_UpOpen;Hoodie_Cropped_Down;Hoodie_Cropped_Up,
+        ClothingItem = Hoodie_CroppedDOWNOpen,
+        ClothingItemExtra = Hoodie_CroppedUPOpen;Hoodie_CroppedDOWN;Hoodie_CroppedUP,
         ClothingItemExtraOption = OpenHoodUp;CloseHoodDown;CloseHoodUp,
         clothingExtraSubmenu = DownHoodie,
         BodyLocation = Sweater,
@@ -493,12 +511,12 @@ module RCO
         WorldStaticModel = Hoodie_Ground,
     }
 
-    item Hoodie_Cropped_UpOpen {
+    item Hoodie_CroppedUPOpen {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Half-Cut Hoodie,
-        ClothingItem = Hoodie_Cropped_UpOpen,
-        ClothingItemExtra = Hoodie_Cropped_DownOpen;Hoodie_Cropped_Down;Hoodie_Cropped_Up,
+        ClothingItem = Hoodie_CroppedUPOpen,
+        ClothingItemExtra = Hoodie_CroppedDOWNOpen;Hoodie_CroppedDOWN;Hoodie_CroppedUP,
         ClothingItemExtraOption = OpenHoodDown;CloseHoodDown;CloseHoodUp,
         clothingExtraSubmenu = UpHoodie,
         BodyLocation = Sweater,
@@ -510,6 +528,88 @@ module RCO
         WindResistance = 0.25,
         FabricType = Cotton,
         WorldStaticModel = Hoodie_Ground,
+    }
+
+
+/** Poncho **/
+
+    item MPoncho {
+        Type = Clothing,
+        DisplayName = Military Poncho,
+        ClothingItem = MPonchoUP,
+        BodyLocation = Tail,
+        Icon = PonchoWhite,
+        BloodLocation = LongJacket;ShortsShort;FullHelmet,
+        ClothingItemExtra = MPonchoDOWN;MPonchoShoulder;MPonchoShoulderDOWN,
+        ClothingItemExtraOption = DownHoodie;UpHoodieS;DownHoodieS,
+        clothingExtraSubmenu = UpHoodie,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.8,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        WorldStaticModel = MPoncho_Ground,
+    }
+
+    item MPonchoDOWN {
+        Type = Clothing,
+        DisplayName = Military Poncho,
+        ClothingItem = MPonchoDOWN,
+        BodyLocation = Tail,
+        Icon = PonchoWhite,
+        BloodLocation = LongJacket;ShortsShort,
+        ClothingItemExtra = MPonchoUP;MPonchoShoulder;MPonchoShoulderDOWN,
+        ClothingItemExtraOption = UpHoodie;UpHoodieS;DownHoodieS,
+        clothingExtraSubmenu = DownHoodie,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.15,
+        WindResistance = 0.8,
+        WaterResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = MPoncho_Ground,
+    }
+   
+    item MPonchoShoulder {
+        Type = Clothing,
+        DisplayName = Military Poncho,
+        ClothingItem = MPonchoShoulder,
+        BodyLocation = Tail,
+        Icon = PonchoWhite,
+        BloodLocation = Neck;Head;UpperBody;UpperArms,
+        ClothingItemExtra = MPonchoDOWN;MPonchoUP;MPonchoShoulderDOWN,
+        ClothingItemExtraOption = DownHoodie;UpHoodie;DownHoodieS,
+        clothingExtraSubmenu = UpHoodieS,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.8,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = MPoncho_Ground,
+    }
+
+    item MPonchoShoulderDOWN {
+        Type = Clothing,
+        DisplayName = Military Poncho,
+        ClothingItem = MPonchoShoulderDOWN,
+        BodyLocation = Tail,
+        Icon = PonchoWhite,
+        BloodLocation = Neck;UpperBody;UpperArms,
+        ClothingItemExtra = MPonchoDOWN;MPonchoUP;MPonchoShoulder,
+        ClothingItemExtraOption = DownHoodie;UpHoodie;UpHoodieS,
+        clothingExtraSubmenu = DownHoodieS,
+        BiteDefense = 40,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.8,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = MPoncho_Ground,
     }
 
 }
