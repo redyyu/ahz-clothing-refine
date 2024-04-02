@@ -31,7 +31,7 @@
     <m_Masks>10</m_Masks>
     <m_AttachBone></m_AttachBone>
     <!-- <m_MasksFolder>media/textures/Clothes/Masks/longboots</m_MasksFolder> -->
-    <m_UnderlayMasksFolder>media/textures/Clothes/Masks/longboots</m_UnderlayMasksFolder>
+    <m_UnderlayMasksFolder>media/textures/Clothes/Shoes/Masks/longboots</m_UnderlayMasksFolder>
     <textureChoices>clothes/Shoes/boots_default1</textureChoices>
     <textureChoices>clothes/Shoes/boots_default2</textureChoices>
     <textureChoices>clothes/Shoes/boots_default3</textureChoices>
