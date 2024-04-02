@@ -42,7 +42,7 @@ but that will cause the feet parts unmasked when wearing other clothing.
 
 DON't know what is the `<m_MasksFolder></m_MasksFolder>` use for.
 it seems will effect texture.
-see `BlackBoots` texture change a little bit.
+see `BlackBoots` texture change a little bit, but I thing that's because clothingItems XML file reloaded.
 
 
 for the masks, `Jacket/Masks` is patch for Vanilla mask bugs.

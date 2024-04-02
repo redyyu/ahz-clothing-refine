@@ -8,5 +8,7 @@
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_UnderlayMasksFolder>media/textures/Clothes/MPoncho</m_UnderlayMasksFolder>
-	<textureChoices>clothes\Mponcho\Mponcho_green</textureChoices>
+	<textureChoices>clothes/MPoncho/MPoncho_Raw</textureChoices>
+	<textureChoices>clothes/MPoncho/MPoncho_Green</textureChoices>
+	<textureChoices>clothes/MPoncho/MPoncho_Black</textureChoices>
 </clothingItem>
