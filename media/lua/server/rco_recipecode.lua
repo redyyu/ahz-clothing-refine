@@ -73,3 +73,9 @@ function Recipe.OnCreate.CopyFirstClothingVisual(items, result, player)
     result:setWetness(wetness)
     
 end
+
+
+
+function Recipe.OnGiveXP.TailoringClothes(recipe, ingredients, result, player)
+    player:getXp():AddXP(Perks.Tailoring, player:getPerkLevel(Perks.Tailoring)*5)
+end
