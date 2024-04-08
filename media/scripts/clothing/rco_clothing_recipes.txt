@@ -4,6 +4,9 @@ module RCO
         Base,
     }
 
+
+/** Hoodie **/
+
     recipe Make Half-Cut Hoodie {
         HoodieDOWN_WhiteTINT/HoodieUP_WhiteTINT,
         keep Scissors,
@@ -22,6 +25,9 @@ module RCO
         Category: Tailoring,
       	SkillRequired: Tailoring=8,
     }
+
+
+/** Mini Dress **/
 
     recipe Make Mini Belly Cut Dress {
         Dress_SatinNegligee/Dress_SmallStrapless/Dress_Straps/DressKnees_Straps/Dress_SmallStraps/Dress_long_Straps,
@@ -117,6 +123,104 @@ module RCO
         Category: Tailoring,
       	SkillRequired: Tailoring=8,
     }
+    
+    recipe Make Black Mini Belly Cut Dress {
+        Dress_SmallBlackStraps/Dress_SmallBlackStrapless,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Dress_MiniBellyCutBlack,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+    recipe Make Black Mini Deep U Dress {
+        Dress_SmallBlackStraps/Dress_SmallBlackStrapless,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Dress_MiniUCutBlack,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+    
+    recipe Make Black Mini Deep V dress {
+        Dress_SmallBlackStraps/Dress_SmallBlackStrapless,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Dress_MiniVCutBlack,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+    recipe Make Black Mini Tube Dress {
+        Dress_SmallBlackStraps/Dress_SmallBlackStrapless,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Dress_MiniTubeBlack,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+    recipe Make Black Mini PoloNeck Dress {
+        Dress_SmallBlackStraps/Dress_SmallBlackStrapless,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Dress_MiniTPoloNeckBlack,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+
+/** Military Poncho **/
 
     recipe Make Military Poncho {
         Tarp=2,

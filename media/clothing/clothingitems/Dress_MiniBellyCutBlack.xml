@@ -5,7 +5,7 @@
 	<m_GUID>0d958ad9-51f0-4c55-964a-49e9fd157452</m_GUID>
 	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
-	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
 	<m_BaseTextures>clothes/Dress/dress_mini_belly_cut_black</m_BaseTextures>
 </clothingItem>
