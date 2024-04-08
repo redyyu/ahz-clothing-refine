@@ -109,6 +109,8 @@
         <path>media/clothing/clothingItems/Hoodie_CroppedUPOpen.xml</path>
         <guid>7943a44d-d9ca-4002-aec0-fd6aaa002bb3</guid>
     </files>
+
+    <!-- Dress Mini -->
     <files>
         <path>media/clothing/clothingItems/Dress_MiniBellyCut.xml</path>
         <guid>3173c265-f332-4294-867f-00637a09c4e2</guid>
@@ -128,6 +130,27 @@
     <files>
         <path>media/clothing/clothingItems/Dress_MiniVCut.xml</path>
         <guid>7735f7e9-aec6-4079-b5d3-4d4d8a3f2891</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Dress_MiniBellyCutBlack.xml</path>
+        <guid>0d958ad9-51f0-4c55-964a-49e9fd157452</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Dress_MiniPoloNeckBlack.xml</path>
+        <guid>4adb4990-0ca4-4e56-a68d-a77d4dce9de5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Dress_MiniTubeBlack.xml</path>
+        <guid>84efef61-cb11-4fe8-adb2-d9f133611c36</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Dress_MiniUCutBlack.xml</path>
+        <guid>88a14c74-84bc-4cb1-976c-8c51b8ca1ee3</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Dress_MiniVCutBlack.xml</path>
+        <guid>9035f082-657d-488b-ab9f-b42827844915</guid>
     </files>
     
     <!-- Boots (TINT) -->

@@ -397,11 +397,37 @@ module RCO
         WorldStaticModel = Dress_Long_Ground,
     }
 
+    item Dress_MiniBellyCutBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Mini Belly Cut Dress,
+        ClothingItem = Dress_MiniBellyCutBlack,
+        BodyLocation = Dress,
+        BloodLocation = UpperBody;LowerBody;Groin,
+        Icon = BellyDress,
+        FabricType = Cotton,
+        Weight = 0.5,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
     item Dress_MiniUCut {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini Deep U Dress,
         ClothingItem = Dress_MiniUCut,
+        BodyLocation = Dress,
+        BloodLocation = UpperBody;LowerBody;Groin,
+        Icon = UDress,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniUCutBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Mini Deep U Dress,
+        ClothingItem = Dress_MiniUCutBlack,
         BodyLocation = Dress,
         BloodLocation = UpperBody;LowerBody;Groin,
         Icon = UDress,
@@ -423,6 +449,19 @@ module RCO
         WorldStaticModel = Dress_Long_Ground,
     }
 
+    item Dress_MiniVCutBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Mini Deep V dress,
+        ClothingItem = Dress_MiniVCutBlack,
+        BodyLocation = Dress,
+        BloodLocation = UpperBody;LowerBody;Groin,
+        Icon = VDress,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
     item Dress_MiniTube {
         DisplayCategory = Clothing,
         Type = Clothing,
@@ -436,11 +475,39 @@ module RCO
         WorldStaticModel = Dress_Long_Ground,
     }
 
+    item Dress_MiniTubeBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Mini Tube Dress,
+        ClothingItem = Dress_MiniTubeBlack,
+        BodyLocation = Dress,
+        BloodLocation = UpperBody;LowerBody;Groin,
+        Icon = TubeDress,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
     item Dress_MiniTPoloNeck {
         DisplayCategory = Clothing,
         Type = Clothing,
         DisplayName = Mini PoloNeck Dress,
         ClothingItem = Dress_MiniPoloNeck,
+        BodyLocation = Dress,
+        BloodLocation = UpperBody;LowerBody;Groin,
+        Icon = PoloNeckDress,
+        Insulation = 0.15,
+        WindResistance = 0.1,
+        Weight = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Dress_Long_Ground,
+    }
+
+    item Dress_MiniTPoloNeckBlack {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Mini PoloNeck Dress,
+        ClothingItem = Dress_MiniPoloNeckBlack,
         BodyLocation = Dress,
         BloodLocation = UpperBody;LowerBody;Groin,
         Icon = PoloNeckDress,

@@ -73,6 +73,11 @@ local distributionsMap = {
         "Dress_MiniVCut",
         "Dress_MiniTube",
         "Dress_MiniTPoloNeck",
+        "Dress_MiniBellyCutBlack",
+        "Dress_MiniUCutBlack",
+        "Dress_MiniVCutBlack",
+        "Dress_MiniTubeBlack",
+        "Dress_MiniTPoloNeckBlack",
     },
 
     ["Shoes_BlackBoots"] = {
