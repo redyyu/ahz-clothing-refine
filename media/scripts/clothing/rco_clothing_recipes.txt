@@ -4,6 +4,65 @@ module RCO
         Base,
     }
 
+/** Hoodie **/
+
+    recipe Make Crop Top Short {
+        Shirt_CropTopNoArmTINT/Shirt_CropTopTINT,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Tshirt_CropTopBoob,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+    recipe Make Long Sleeve Croptop {
+        Tshirt_WhiteLongSleeve/Tshirt_WhiteLongSleeveTINT,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Tshirt_LongSleeveTop,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
+    recipe Make Long Sleeve Croptop Cut {
+        Tshirt_WhiteLongSleeve/Tshirt_WhiteLongSleeveTINT,
+        keep Scissors,
+        keep Needle,
+        Thread=2,
+
+        OnCreate: Recipe.OnCreate.CopyFirstClothingVisual,
+        OnGiveXP: Recipe.OnGiveXP.TailoringClothes,
+
+        Result: Tshirt_LongSleeveTopCut,
+        Sound: ClothesRipping,
+        Time: 500.0,
+        Prop1: Source=1,
+        Prop2: Source=2,
+        AnimNode: RipSheets,
+        Category: Tailoring,
+      	SkillRequired: Tailoring=8,
+    }
+
 
 /** Hoodie **/
 
