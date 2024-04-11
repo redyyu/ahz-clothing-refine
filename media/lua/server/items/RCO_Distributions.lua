@@ -81,7 +81,9 @@ local distributionsMap = {
     },
 
     ["Shoes_BlackBoots"] = {
-        "Shoes_BootsChromatic"
+        "Shoes_BootsChromatic",
+        "Shoes_FancyBoots",
+        "Shoes_KneeHighHeels",
     },
 
     ["Shoes_RidingBoots"] = {
