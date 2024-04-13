@@ -11,14 +11,14 @@ module RCO
         Type = Clothing,
         DisplayName = Fitness Compression Stockings,
         ClothingItem = Stockings_Fitness,
-		BodyLocation = Socks,
+        BodyLocation = Socks,
         BloodLocation = LowerLegs;UpperLegs;Shoes,
         IconsForTexture = FitnessStockings1;FitnessStockings2;FitnessStockings3;FitnessStockings4;FitnessStockings5;FitnessStockings,
-		BiteDefense = 10,
+        BiteDefense = 10,
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
-		Weight = 0.1,
+        Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
     }
@@ -27,14 +27,14 @@ module RCO
         Type = Clothing,
         DisplayName = Fitness Compression Stockings,
         ClothingItem = Stockings_FitnessTINT,
-		BodyLocation = Socks,
+        BodyLocation = Socks,
         BloodLocation = LowerLegs;UpperLegs;Shoes,
         Icon = FitnessStockings,
-		BiteDefense = 10,
+        BiteDefense = 10,
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
-		Weight = 0.1,
+        Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
     }
@@ -43,73 +43,73 @@ module RCO
         Type = Clothing,
         DisplayName = Camo Compression Stockings,
         ClothingItem = Stockings_Camo,
-		BodyLocation = Socks,
+        BodyLocation = Socks,
         BloodLocation = LowerLegs;UpperLegs;Shoes,
         IconsForTexture = CamoStockings1;CamoStockings2;CamoStockings3,
-		BiteDefense = 10,
+        BiteDefense = 10,
         ScratchDefense = 20,
         Insulation = 0.5,
         WindResistance = 0.5,
-		Weight = 0.1,
+        Weight = 0.1,
         FabricType = Cotton,
         WorldStaticModel= Stockings_FitnessStockings_Ground,
     }
-	
-	item Bra_Fitness {
-        DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Fitness Compression Bra,
-		ClothingItem = Bra_Fitness,
-		BodyLocation = UnderwearTop,
+    
+    item Bra_Fitness {
+        DisplayCategory = Clothing,        
+        Type = Clothing,
+        DisplayName = Fitness Compression Bra,
+        ClothingItem = Bra_Fitness,
+        BodyLocation = UnderwearTop,
         ScratchDefense = 5,
         Insulation = 0.2,
         WindResistance = 0.2,
-		IconsForTexture = FitnessBra1;FitnessBra2;FitnessBra3;FitnessBra4;FitnessBra5;FitnessBra6,
-		Weight = 0.2,
+        IconsForTexture = FitnessBra1;FitnessBra2;FitnessBra3;FitnessBra4;FitnessBra5;FitnessBra6,
+        Weight = 0.2,
         FabricType = Cotton,
-		WorldStaticModel = Underwear_Top_Ground,
-	}
+        WorldStaticModel = Underwear_Top_Ground,
+    }
 
     item Underpants_Fitness {
-        DisplayCategory = Clothing,			
+        DisplayCategory = Clothing,            
         Type = Clothing,
         DisplayName = Fitness Compression Underpants,
         ClothingItem = Underpants_Fitness,
         BodyLocation = UnderwearBottom,
-		IconsForTexture = FitnessUnderpants1;FitnessUnderpants2;FitnessUnderpants3;FitnessUnderpants4;FitnessUnderpants5;FitnessUnderpants6,
+        IconsForTexture = FitnessUnderpants1;FitnessUnderpants2;FitnessUnderpants3;FitnessUnderpants4;FitnessUnderpants5;FitnessUnderpants6,
         ScratchDefense = 5,
         Insulation = 0.2,
         WindResistance = 0.2,
-		Weight = 0.2,
+        Weight = 0.2,
         FabricType = Cotton,
         WorldStaticModel= Underwear_Bottom_Ground,
     }
 
-	item Underpants_HighWaistT {
-        DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = High Waisted Underpants,
-		ClothingItem = Underpants_HighWaist_T,
+    item Underpants_HighWaistT {
+        DisplayCategory = Clothing,        
+        Type = Clothing,
+        DisplayName = High Waisted Underpants,
+        ClothingItem = Underpants_HighWaist_T,
         BodyLocation = UnderwearBottom,
         Icon = HighWaistT,
-		Weight = 0.2,
+        Weight = 0.2,
         FabricType = Cotton,
-		WorldStaticModel = Underwear_Bottom_Ground,
-	}
-	
-	item Underpants_TightShorts {
-        DisplayCategory = Clothing,		
-		Type = Clothing,
-		DisplayName = Short Underwear Tights,
-		ClothingItem = Underpants_TightShorts,
+        WorldStaticModel = Underwear_Bottom_Ground,
+    }
+    
+    item Underpants_TightShorts {
+        DisplayCategory = Clothing,        
+        Type = Clothing,
+        DisplayName = Short Underwear Tights,
+        ClothingItem = Underpants_TightShorts,
         BodyLocation = UnderwearBottom,
         Icon = TightShorts,
         Insulation = 0.25,
         WindResistance = 0.25,
-		Weight = 0.2,
+        Weight = 0.2,
         FabricType = Cotton,
-		WorldStaticModel = Underwear_Bottom_Ground,
-	}
+        WorldStaticModel = Underwear_Bottom_Ground,
+    }
 
 
 /** Sweater **/
@@ -120,7 +120,7 @@ module RCO
         ClothingItem = Sweater_FitnessArms,
         BodyLocation = Sweater,
         BloodLocation = Jacket,
-		IconsForTexture = FitnessArms1;FitnessArms2;FitnessArms3;FitnessArms4;FitnessArms5;FitnessArms6,
+        IconsForTexture = FitnessArms1;FitnessArms2;FitnessArms3;FitnessArms4;FitnessArms5;FitnessArms6,
         NeckProtectionModifier = 0.2,
         BiteDefense = 10,
         ScratchDefense = 20,
@@ -145,7 +145,7 @@ module RCO
         WorldStaticModel = CropTop_Ground,
     }
 
-	item Tshirt_LongSleeveTop {
+    item Tshirt_LongSleeveTop {
        Type = Clothing,
        DisplayName = Long Sleeve Croptop,
        ClothingItem = Tshirt_LongSleeveTop,
@@ -156,9 +156,9 @@ module RCO
        WindResistance = 0.15,
        FabricType = Cotton,
        WorldStaticModel = Sweater_FitnessArms_Ground,
-   	}
+       }
 
-	item Tshirt_LongSleeveTopCut {
+    item Tshirt_LongSleeveTopCut {
        Type = Clothing,
        DisplayName = Long Sleeve Croptop Cut,
        ClothingItem = Tshirt_LongSleeveTopCut,
@@ -169,7 +169,7 @@ module RCO
        WindResistance = 0.1,
        FabricType = Cotton,
        WorldStaticModel = Sweater_FitnessArms_Ground,
-   	}
+       }
 
 
 /** Skirt **/
@@ -181,15 +181,15 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirt1;PleatedSkirt2;PleatedSkirt3;PleatedSkirt4;PleatedSkirt5;PleatedSkirt6;PleatedSkirt7;PleatedSkirt8;PleatedSkirt9;PleatedSkirt10;PleatedSkirt11;PleatedSkirt12;PleatedSkirt13;PleatedSkirt14;PleatedSkirt15;PleatedSkirt16;PleatedSkirt17;PleatedSkirt18;PleatedSkirt19;PleatedSkirt20;PleatedSkirt21;PleatedSkirt22;PleatedSkirt23;PleatedSkirt24;PleatedSkirt25;PleatedSkirt26;PleatedSkirt27;PleatedSkirt28;PleatedSkirt29;PleatedSkirt30;PleatedSkirt31,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Tight,
+        ClothingItemExtra = Skirt_ShortPleated_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleated_Tight {
@@ -199,15 +199,15 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirt1;PleatedSkirt2;PleatedSkirt3;PleatedSkirt4;PleatedSkirt5;PleatedSkirt6;PleatedSkirt7;PleatedSkirt8;PleatedSkirt9;PleatedSkirt10;PleatedSkirt11;PleatedSkirt12;PleatedSkirt13;PleatedSkirt14;PleatedSkirt15;PleatedSkirt16;PleatedSkirt17;PleatedSkirt18;PleatedSkirt19;PleatedSkirt20;PleatedSkirt21;PleatedSkirt22;PleatedSkirt23;PleatedSkirt24;PleatedSkirt25;PleatedSkirt26;PleatedSkirt27;PleatedSkirt28;PleatedSkirt29;PleatedSkirt30;PleatedSkirt31,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated,
+        ClothingItemExtra = Skirt_ShortPleated,
         ClothingItemExtraOption = Loosen,
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleatedTINT {
@@ -217,15 +217,15 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleatedTINT_Tight,
+        ClothingItemExtra = Skirt_ShortPleatedTINT_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleatedTINT_Tight {
@@ -235,15 +235,15 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleatedTINT,
+        ClothingItemExtra = Skirt_ShortPleatedTINT,
         ClothingItemExtraOption = Loosen,
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleatedPlaidTINT {
@@ -253,15 +253,15 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedPlaidSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleatedPlaidTINT_Tight,
+        ClothingItemExtra = Skirt_ShortPleatedPlaidTINT_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleatedPlaidTINT_Tight {
@@ -271,15 +271,15 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedPlaidSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleatedPlaidTINT,
+        ClothingItemExtra = Skirt_ShortPleatedPlaidTINT,
         ClothingItemExtraOption = Loosen,
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_MiniPleated {
@@ -289,12 +289,12 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirt1;PleatedSkirt2;PleatedSkirt3;PleatedSkirt4;PleatedSkirt5;PleatedSkirt6;PleatedSkirt7;PleatedSkirt8;PleatedSkirt9;PleatedSkirt10;PleatedSkirt11;PleatedSkirt12;PleatedSkirt13;PleatedSkirt14;PleatedSkirt15;PleatedSkirt16;PleatedSkirt17;PleatedSkirt18;PleatedSkirt19;PleatedSkirt20;PleatedSkirt21;PleatedSkirt22;PleatedSkirt23;PleatedSkirt24;PleatedSkirt25;PleatedSkirt26;PleatedSkirt27;PleatedSkirt28;PleatedSkirt29;PleatedSkirt30;PleatedSkirt31,
         BloodLocation = ShortsShort,
-		BiteDefense = 3,
+        BiteDefense = 3,
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_MiniPleated_Ground,
+        WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
     item Skirt_MiniPleatedTINT {
@@ -304,12 +304,12 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 3,
+        BiteDefense = 3,
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_MiniPleated_Ground,
+        WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
     item Skirt_MiniPleatedPlaidTINT {
@@ -319,12 +319,12 @@ module RCO
         BodyLocation = Skirt,
         Icon = PleatedPlaidSkirtTINT,
         BloodLocation = ShortsShort,
-		BiteDefense = 3,
+        BiteDefense = 3,
         ScratchDefense = 3,
         Insulation = 0.08,
         WindResistance = 0.08,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_MiniPleated_Ground,
+        WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
     item Skirt_ShortPleated_Camo {
@@ -334,15 +334,15 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Camo_Tight,
+        ClothingItemExtra = Skirt_ShortPleated_Camo_Tight,
         ClothingItemExtraOption = Tighten,
         clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_ShortPleated_Camo_Tight {
@@ -352,15 +352,15 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Camo,
+        ClothingItemExtra = Skirt_ShortPleated_Camo,
         ClothingItemExtraOption = Loosen,
         clothingExtraSubmenu = Tighten,
         Insulation = 0.1,
         WindResistance = 0.15,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_ShortPleated_Ground,
+        WorldStaticModel = Skirt_ShortPleated_Ground,
     }
 
     item Skirt_MiniPleated_Camo {
@@ -370,15 +370,12 @@ module RCO
         BodyLocation = Skirt,
         IconsForTexture = PleatedSkirtCamo1;PleatedSkirtCamo2;PleatedSkirtCamo3,
         BloodLocation = ShortsShort,
-		BiteDefense = 5,
+        BiteDefense = 5,
         ScratchDefense = 5,
-		ClothingItemExtra = Skirt_ShortPleated_Camo_Tight,
-        ClothingItemExtraOption = Tighten,
-        clothingExtraSubmenu = Loosen,
         Insulation = 0.1,
         WindResistance = 0.1,
         FabricType = Cotton,
-		WorldStaticModel = Skirt_MiniPleated_Ground,
+        WorldStaticModel = Skirt_MiniPleated_Ground,
     }
 
 
